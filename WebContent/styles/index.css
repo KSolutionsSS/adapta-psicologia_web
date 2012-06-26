@@ -1,0 +1,114 @@
+body {
+    padding-top: 3.5em; /* 3.5em Para que arranque abajo de la barra de navegación */
+    /*	Para cambiar el font del sitio tendría que cambiar acá, 
+    	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
+    font-size: 0.9em;
+}
+
+h2,h3 {
+    color: black;
+    text-shadow: 0.1em 0.1em 0.4em #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+.navbar-fixed-top {
+    font-size: 0.9em;
+}
+
+/**
+ * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
+ */
+#mainContainer {
+    background-color: rgba(241, 241, 241, 0.6);
+    border-radius: 2em;
+}
+
+/**
+ * Es el estilo que se debe aplicar al DIV donde se coloca la info de cada página del sitio.
+ */
+#content {
+    margin: 2em;
+}
+
+/**
+ * Es para una especie de título que deba estar centrado y con sombra.
+ */
+.centralText {
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.9em black;
+}
+
+.footerText,.footerDesignerSignText {
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.9em black;
+}
+
+.footerText a,.footerDesignerSignText a {
+    color: black;
+}
+
+.footerText {
+    font-size: 0.75em;
+}
+
+.footerDesignerSignText {
+    font-size: 0.65em;
+}
+
+/**
+ * Esto así hace que onMouseOver me pinte las letras de blanco.
+ */
+.menuLink:HOVER {
+    
+}
+
+/**
+ * Asigna un borde de color. Se usa en las imágenes.
+ */
+.imgBorder {
+    padding: 0.1em;
+    border: 0.1em solid #6CA5FF;
+}
+
+.map {
+    padding: 0.1em;
+    border: 0.1em solid #6CA5FF;
+    width: 425px;
+    height: 350px;
+    margin: 0;
+}
+
+#fixedMenu {
+    position: fixed;
+    background-color: rgba(235, 239, 249, 0.8);
+    border-radius: 0.8em;
+    padding: 0.8em;
+    width: 10.5em;
+    margin-top: 35%;
+    margin-left: 73%;
+}
+
+.relatedSection {
+    margin: 1em;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 1em;
+    padding: 0.5em 0.8em; /*top-right-bottom-left*/
+    display: table;
+    /*Descomentar float para related2.html*/
+    /*     float: left; */
+}
+
+.formLabel {
+    font-size: 0.8em;
+}
+
+.contactSite {
+    float: left;
+    margin: 1em;
+    background-color: rgba(158, 158, 158, 0.24);
+    border-radius: 1em;
+    padding: 0.5em 0.8em; /*top-right-bottom-left*/
+}

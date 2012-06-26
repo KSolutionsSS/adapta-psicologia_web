@@ -1,0 +1,111 @@
+{
+		"sections" : [
+				{
+					"sectionId" : "related-sites",
+					"title" : "Sitios relacionados",
+					"description" : "Acá mostramos distintos sitios relacionados.",
+					"items" : [ {
+						"label" : "Google",
+						"link" : "http://www.google.com",
+						"linkDescription" : "The best search engine."
+					}, {
+						"label" : "Facebook",
+						"link" : "http://www.facebook.com",
+						"linkDescription" : "A social network."
+					}, {
+						"label" : "Gmail",
+						"link" : "http://www.gmail.com",
+						"linkDescription" : "The best email provider."
+					} ]
+				},
+				{
+					"sectionId" : "related-treatment-1",
+					"title" : "Tratamiento 1",
+					"description" : "Esto es del tratamiento XXX (1).",
+					"items" : [ {
+						"label" : "Google",
+						"link" : "http://www.google.com",
+						"linkDescription" : "The best search engine."
+					}, {
+						"label" : "Facebook",
+						"link" : "http://www.facebook.com",
+						"linkDescription" : "A social network."
+					}, {
+						"label" : "Gmail",
+						"link" : "http://www.gmail.com",
+						"linkDescription" : "The best email provider."
+					} ]
+				},
+				{
+					"sectionId" : "related-treatment-2",
+					"title" : "Tratamiento 2",
+					"description" : "Esto es del tratamiento XXX (2).",
+					"items" : [ {
+						"label" : "Google",
+						"link" : "http://www.google.com",
+						"linkDescription" : "The best search engine."
+					}, {
+						"label" : "Facebook",
+						"link" : "http://www.facebook.com",
+						"linkDescription" : "A social network."
+					} ]
+				},
+				{
+					"sectionId" : "related-metodology-1",
+					"title" : "Metodologia 1",
+					"description" : "Esta es la descripción del tratamiento numero (1).",
+					"items" : [ {
+						"label" : "Google",
+						"link" : "http://www.google.com",
+						"linkDescription" : "The best search engine."
+					}, {
+						"label" : "Gmail",
+						"link" : "http://www.gmail.com",
+						"linkDescription" : "The best email provider."
+					} ]
+				},
+				{
+					"sectionId" : "related-metodology-2",
+					"title" : "Metodologia 2",
+					"description" : "Esta es la descripción del tratamiento numero (2).",
+					"items" : [ {
+						"label" : "Google",
+						"link" : "http://www.google.com",
+						"linkDescription" : "The best search engine."
+					} ]
+				},
+				{
+					"sectionId" : "related-articles",
+					"title" : "Revistas y articulos",
+					"description" : "A continuación se muestran algunas revistas y articulos vinculados a la psicologia.",
+					"items" : [ {
+						"label" : "Google",
+						"link" : "http://www.google.com",
+						"linkDescription" : "The best search engine."
+					}, {
+						"label" : "Facebook",
+						"link" : "http://www.facebook.com",
+						"linkDescription" : "A social network."
+					}, {
+						"label" : "Gmail",
+						"link" : "http://www.gmail.com",
+						"linkDescription" : "The best email provider."
+					} ]
+				},
+				{
+					"sectionId" : "related-twitter",
+					"title" : "Usuarios de Twitter",
+					"description" : "Los siguientes son usuarios de Twitter importantes en el mundo de la psicologia.",
+					"items" : [
+							{
+								"label" : "Nahuel Barrios",
+								"link" : "http://www.twitter.com/justkenchu",
+								"linkDescription" : "Alguien que publica algunas cosas"
+							},
+							{
+								"label" : "Proyecto de Nuevas Tecnologias",
+								"link" : "http://www.twitter.com/pntecnologias",
+								"linkDescription" : "Un equipo de desarrolladores de software que publican metodologias y herramientas que utilizan."
+							} ]
+				} ]
+	}

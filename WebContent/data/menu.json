@@ -1,0 +1,38 @@
+{
+	"menu": [
+		{
+			"label": "Inicio"
+		}, {
+			"label": "Acerca del cuerpo médico"
+		}, {
+			"label": "Sobre el tratamiento"
+		}, {
+			"label": "Metodologias de trabajo"
+		}, {
+			"label": "Relacionados",
+			"items": [
+				{
+					"label": "Sitios"
+				}, {
+					"isSeparator": true
+				}, {
+					"label": "Metodología 1"
+				}, {
+					"label": "Metodología 2"
+				}, {
+					"isSeparator": true
+				}, {
+					"label": "Tratamiento 1"
+				}, {
+					"label": "Tratamiento 2"
+				}, {
+					"isSeparator": true
+				}, {
+					"label": "Usuarios en Twitter"
+				}
+			]
+		}, {
+			"label": "Contacto"
+		}
+	]
+}
