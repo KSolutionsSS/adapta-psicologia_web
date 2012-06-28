@@ -5,12 +5,14 @@ var templateScriptId = "#aboutTemplate";
 
 views.about = (function() {
 
+	var json;
+
+	$.getJSON('data/about.json', function(data) {
+		json = data;
+	});
+
 	var info = function(param) {
-		return {
-			"json" : {
-				name : "Un valor del template"
-			}
-		};
+		return json;
 	};
 
 	return {

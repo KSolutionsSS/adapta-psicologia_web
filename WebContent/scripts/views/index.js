@@ -1,11 +1,19 @@
+/**
+ * La asignación así es para que si ya existe no lo sobreescriba, y entonces use
+ * ese. Si no existe, lo crea.
+ */
 var views = views || {};
 
 $(document).ready(function() {
 	showSection(0);
 });
 
+/**
+ * Muestra la sección de la página que corresponde.
+ * 
+ * @param sectionId
+ */
 function showSection(sectionId) {
-
 	var render = function(view) {
 
 		$('#content').empty();
@@ -29,15 +37,15 @@ function showSection(sectionId) {
 		render(views.home);
 		break;
 	}
-
 }
 
 /**
- * Muestra la sección de la página que corresponde.
+ * Muestra la sección de la página que corresponde. Esto hay que borrarlo.
  * 
  * @param sectionId
  */
-function showSection2(sectionId) {
+function oldShowSection(sectionId) {
+	// TODO : Refactor : Put this method into showSection.
 
 	$('#content').empty();
 
@@ -102,7 +110,5 @@ function showSection2(sectionId) {
 				scrollTop : $("#" + htmlSectionId).offset().top - 40
 			}, 1000);
 		}
-
 	});
-
 }
