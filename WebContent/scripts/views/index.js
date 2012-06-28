@@ -1,13 +1,43 @@
+var views = views || {};
+
 $(document).ready(function() {
 	showSection(0);
 });
+
+function showSection(sectionId) {
+
+	var render = function(view) {
+
+		$('#content').empty();
+
+		$.get("partialViews/" + view.url, function(template) {
+			$("body").append(template);
+
+			$('#content').append(
+					$.mustache($(view.templateScriptId).html(), view.info()));
+		});
+	};
+
+	switch (sectionId) {
+	case 1:
+		render(views.about);
+		break;
+	case 5:
+		render(views.contact);
+		break;
+	default:
+		render(views.home);
+		break;
+	}
+
+}
 
 /**
  * Muestra la sección de la página que corresponde.
  * 
  * @param sectionId
  */
-function showSection(sectionId) {
+function showSection2(sectionId) {
 
 	$('#content').empty();
 
@@ -16,19 +46,7 @@ function showSection(sectionId) {
 	var templateScriptId;
 	var htmlSectionId;
 
-	if (sectionId == 0) {
-		json = {
-			name : "Nahuel"
-		};
-		url = "home.html";
-		templateScriptId = "#homeTemplate";
-	} else if (sectionId == 1) {
-		json = {
-			name : "Un valor del template"
-		};
-		url = "about.html";
-		templateScriptId = "#aboutTemplate";
-	} else if (sectionId == 2) {
+	if (sectionId == 2) {
 		json = {
 			name : "Un valor del template para el tratamiento"
 		};
@@ -40,19 +58,6 @@ function showSection(sectionId) {
 		};
 		url = "metodologies.html";
 		templateScriptId = "#metodologiesTemplate";
-	} else if (sectionId == 5) {
-//		json = {
-//			name : "Nahuel",
-//			email : "prueba@gmail.com",
-//			phone : "1234567789"
-//		};
-		
-		$.getJSON('data/contact.json', function(data) {
-			json = data;
-		});
-		
-		url = "contact.html";
-		templateScriptId = "#contactTemplate";
 	} else if (sectionId > 40) {
 
 		$.getJSON('data/related.json', function(data) {
