@@ -15,8 +15,17 @@ h2 {
 }
 
 .navbar-fixed-top {
-    font-size: 0.9em;
+    font-size: 1em;
 }
+
+.navbar .brand {
+    padding: 0em 0em 1.1em 0em;
+}
+
+.navbar .nav li a{
+    padding: 1.5em 0em 0em 3em;
+}
+
 
 /**
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
@@ -111,4 +120,12 @@ h2 {
     background-color: rgba(158, 158, 158, 0.24);
     border-radius: 1em;
     padding: 0.5em 0.8em; /*top-right-bottom-left*/
+}
+
+.psi-small {
+    font-size: 1em;
+}
+
+.psi-big {
+    font-size: 2em;
 }
