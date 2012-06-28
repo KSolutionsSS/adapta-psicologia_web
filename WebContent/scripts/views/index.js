@@ -5,39 +5,52 @@
 var views = views || {};
 
 $(document).ready(function() {
-	showSection(0);
+	views.index.showSection(0);
 });
 
-/**
- * Muestra la sección de la página que corresponde.
- * 
- * @param sectionId
- */
-function showSection(sectionId) {
-	var render = function(view) {
+views.index = (function() {
 
-		$('#content').empty();
+	// Acá defino todas las funciones que va a tener el objeto views.index
 
-		$.get("partialViews/" + view.url, function(template) {
-			$("body").append(template);
+	/**
+	 * Muestra la sección de la página que corresponde.
+	 * 
+	 * @param sectionId
+	 */
+	var showSection = function(sectionId) {
 
-			$('#content').append(
-					$.mustache($(view.templateScriptId).html(), view.info()));
-		});
+		var render = function(customView) {
+
+			$('#content').empty();
+
+			$.get("partialViews/" + customView.url, function(template) {
+				$("body").append(template);
+
+				$('#content').append(
+						$.mustache($(customView.templateScriptId).html(),
+								customView.info()));
+			});
+		};
+
+		switch (sectionId) {
+		case 1:
+			render(views.about);
+			break;
+		case 5:
+			render(views.contact);
+			break;
+		default:
+			render(views.home);
+			break;
+		}
+	};// Fín views.index.showSection
+
+	// Defino el objeto que va a valer index, con sus atributos y funciones.
+	return {
+		showSection : showSection
 	};
 
-	switch (sectionId) {
-	case 1:
-		render(views.about);
-		break;
-	case 5:
-		render(views.contact);
-		break;
-	default:
-		render(views.home);
-		break;
-	}
-}
+})();
 
 /**
  * Muestra la sección de la página que corresponde. Esto hay que borrarlo.

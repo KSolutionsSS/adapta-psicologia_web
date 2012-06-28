@@ -7,9 +7,7 @@ views.home = (function() {
 
 	var info = function(param) {
 		return {
-			"json" : {
-				name : "Nahuel"
-			}
+
 		};
 	};
 
