@@ -22,10 +22,9 @@ h2 {
     padding: 0em 0em 1.1em 0em;
 }
 
-.navbar .nav li a{
+.navbar .nav li a {
     padding: 1.5em 0em 0em 3em;
 }
-
 
 /**
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
@@ -128,4 +127,5 @@ h2 {
 
 .psi-big {
     font-size: 2em;
+    color: #C5E02F;
 }
