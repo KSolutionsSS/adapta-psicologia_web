@@ -1,12 +1,16 @@
 {
-	"name": "Pablo Barrionuevo Grabinski",
+	"name": "Pablo A. Barrionuevo Grabinski",
 	"email": "pb.psicologo@gmail.com",
 	"cellphone": "628 83 85 64",
 	"sites": [
 		{
 			"city": "Barcelona",
 			"address": "C/Gran de Gràcia 93, 4º 2ª. 08012",
-			"phone": "93 237 15 47",
+			"transitLines": {
+				"train": "<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>",
+				"bus": "22, 24, 28, 114, 87",
+				"subway": "<span class=\"transitLine-darkGreen\">L3</span>"
+			},
 			"map": {
 				"urlIframe": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+Gran+de+Gr%C3%A0cia,+93,+Barcelona,+espa%C3%B1a&amp;aq=t&amp;sll=41.728897,1.834406&amp;sspn=0.005725,0.012757&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+Gran+de+Gr%C3%A0cia,+93,+08012+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.401906,2.153728&amp;spn=0.005633,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed",
 				"urlLink": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+Gran+de+Gr%C3%A0cia,+93,+Barcelona,+espa%C3%B1a&amp;aq=t&amp;sll=41.728897,1.834406&amp;sspn=0.005725,0.012757&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+Gran+de+Gr%C3%A0cia,+93,+08012+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.401906,2.153728&amp;spn=0.005633,0.00912&amp;z=16&amp;iwloc=A"

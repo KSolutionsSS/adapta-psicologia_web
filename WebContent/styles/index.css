@@ -28,7 +28,7 @@ h2 {
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
  */
 #mainContainer {
-    background-color: rgba(241, 241, 241, 0.6);
+    background-color: rgba(242, 254, 255, 0.6);
     border-radius: 2em;
 }
 
@@ -106,8 +106,44 @@ h2 {
 
 .contactSite {
     float: left;
-    margin: 1em;
-    background-color: rgba(158, 158, 158, 0.24);
+    margin: 0.5em;
+    background-color: rgba(189, 255, 137, 0.24);
     border-radius: 1em;
     padding: 0.5em 0.8em; /*top-right-bottom-left*/
+}
+
+/**
+ * Estilos para las líneas de tránsito que me dejan cerca de las consultas.
+ */
+.transitLine dd {
+    font-weight: bold;
+}
+
+.transitLine-violet {
+    color: #B801B8;
+}
+
+.transitLine-brown {
+    color: rgb(117, 50, 50);
+}
+
+.transitLine-orange {
+    color: orange;
+}
+
+.transitLine-lightGreen {
+    color: rgb(2, 189, 2);
+}
+
+.transitLine-darkGreen {
+    color: green;
+}
+
+.transitLine-blue {
+    color: blue;
+}
+
+/* ================================================================= */
+.expandMapLabel {
+    color: gray;
 }

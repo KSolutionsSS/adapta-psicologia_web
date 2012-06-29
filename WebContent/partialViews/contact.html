@@ -3,9 +3,9 @@
 	<p>Información de contacto:</p>
 
 	<ul>
-    	<li><span class="formLabel">Nombre: </span>{{name}}.</li>
-    	<li><span class="formLabel">Email: </span><a href="mailto:{{email}}?subject=Consulta">{{email}}</a></li>
-		<li><span class="formLabel">Teléfono m&oacute;vil: </span>{{cellphone}}.</li>
+    	<li><dt>Nombre:</dt><dd>{{name}}.</dd></li>
+    	<li><dt>Email:</dt><dd><a href="mailto:{{email}}?subject=Consulta">{{email}}</a></dd></li>
+		<li><dt>Teléfono m&oacute;vil:</dt><dd>{{cellphone}}</dd></li>
 	</ul>
 
 	{{#sites}}
@@ -15,7 +15,25 @@
 
 			<ul>
     			<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}.</li>
-				<li><span class="formLabel">Teléfono/Fax: </span>{{phone}}.</li>
+				{{#phone}}<li><span class="formLabel">Teléfono: </span>{{phone}}.</li>{{/phone}}
+				{{#fax}}<li><span class="formLabel">Fax: </span>{{fax}}.</li>{{/fax}}
+				{{#transitLines}}
+					<span class="transitLine">
+						<li>¿Cómo llegar?</li>
+						{{#train}}
+							<dt>Líneas de FGC:</dt>
+							<dd>{{{train}}}</dd>
+						{{/train}}
+						{{#subway}}
+							<dt>Metro:</dt>
+							<dd>{{{subway}}}</dd>
+						{{/subway}}
+						{{#bus}}
+							<dt>Autobus:</dt>
+							<dd>{{{bus}}}</dd>
+						{{/bus}}
+					</span>
+				{{/transitLines}}
 			</ul>
 
 			<p>Nuestra consulta est&aacute; ubicada en:</p>
@@ -24,7 +42,7 @@
 				src="{{map.urlIframe}}"></iframe><br />
 
 			<small>
-				<a target="_blank" href="{{map.urlLink}}">Ver mapa m&aacute;s grande</a>
+				<a class="expandMapLabel" target="_blank" href="{{map.urlLink}}">Ver mapa m&aacute;s grande</a>
 			</small>
 
 		</section>
