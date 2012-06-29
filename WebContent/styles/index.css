@@ -14,17 +14,15 @@ h2 {
     text-align: center;
 }
 
-/* .navbar-fixed-top { */
-/*     font-size: 1em; */
-/* } */
+.psi-small {
+    font-family: 'Caudex', serif;
+    font-size: 1em;
+}
 
-/* .navbar .brand { */
-/*     padding: 0.5em 0em 0.6em 0em; */
-/* } */
-
-/* .navbar .nav li a { */
-/*     padding: 1.5em 0em 0em 3em; */
-/* } */
+.psi-big {
+    font-family: 'Caudex', serif;
+    font-size: 1em;
+}
 
 /**
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
@@ -65,13 +63,6 @@ h2 {
 .footerDesignerSignText {
     font-size: 0.65em;
 }
-
-/* /** */
-/*  * Esto así hace que onMouseOver me pinte las letras de blanco. */
-/*  */ */
-/* .menuLink:HOVER { */
-    
-/* } */
 
 /**
  * Asigna un borde de color. Se usa en las imágenes.
@@ -119,15 +110,4 @@ h2 {
     background-color: rgba(158, 158, 158, 0.24);
     border-radius: 1em;
     padding: 0.5em 0.8em; /*top-right-bottom-left*/
-}
-
-.psi-small {
-    font-family: 'Caudex', serif;
-    font-size: 1em;
-}
-
-.psi-big {
-    font-family: 'Caudex', serif;
-    font-size: 1em;
-/*     color: #C5E02F; */
 }
