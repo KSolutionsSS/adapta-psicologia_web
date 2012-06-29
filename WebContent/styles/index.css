@@ -44,8 +44,13 @@ h2 {
  * Es para una especie de título que deba estar centrado y con sombra.
  */
 .centralText {
-    text-align: center;
     text-shadow: 0.1em 0.1em 0.9em black;
+    background-color: #ABFF9B;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    margin-left: 13.2em;
+    /*TODO : Refactor : este margin-left falla cuando minimizo la pantalla*/
+    display: inline-table;
 }
 
 .footerText,.footerDesignerSignText {
