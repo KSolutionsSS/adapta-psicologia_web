@@ -1,0 +1,16 @@
+@navbarHeight
+	60px
+@navbarBackground
+	rgb(232, 253, 255)
+@navbarBackgroundHighlight
+	#CBFBFF
+@navbarText
+	red
+@navbarBrandColor
+	black
+@navbarLinkColor
+	@grayLight
+@navbarLinkColorHover
+	@grayDark
+@navbarSearchBackgroundFocus
+	#ccc
