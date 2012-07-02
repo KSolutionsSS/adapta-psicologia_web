@@ -1,5 +1,6 @@
 body {
-    padding-top: 3.5em; /* 3.5em Para que arranque abajo de la barra de navegación */
+    padding-top: 3.5em;
+    /* 3.5em Para que arranque abajo de la barra de navegación */
     /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.9em;
@@ -28,16 +29,17 @@ h2 {
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
  */
 #mainContainer {
-    background-color: rgba(242, 254, 255, 0.6);
+    background-color: rgba(234, 244, 245, 0.6);
     border-radius: 2em;
     margin-top: 2em;
+    border-radius: 2em;
 }
 
 /**
  * Es el estilo que se debe aplicar al DIV donde se coloca la info de cada página del sitio.
  */
 #content {
-    margin: 2em;
+    margin: 0.3em 2em 2em;
 }
 
 /**
@@ -152,4 +154,14 @@ h2 {
 /* ================================================================= */
 .expandMapLabel {
     color: gray;
+}
+
+.twoColumns {
+    margin-top: 2.5em;
+    display: inline-block;
+}
+
+.twoColumns #leftColumn {
+    float: left;
+    margin-right: 5em;
 }

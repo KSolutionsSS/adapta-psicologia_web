@@ -1,13 +1,17 @@
 <script id="aboutTemplate" type="text/html">
 	<h2>Acerca del psicólogo</h2>
 
-	<br/>
-	<br/>
-	<br/>
-	<ul>
-		{{#items}}
-			<li>{{{description}}}</li><br/>
-		{{/items}}
-	</ul>
+	<div class="twoColumns">
+		<div id="leftColumn">
+			<img src="images/PBG.jpg" class="imgBorder"/>
+		</div>
+		<div>
+			<ul>
+				{{#items}}
+					<li>{{{description}}}</li><br/>
+				{{/items}}
+			</ul>
+		</div>
+	</div>
 
 </script>
