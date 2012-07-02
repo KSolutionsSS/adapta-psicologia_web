@@ -50,9 +50,9 @@ h2 {
     background-color: #ABFF9B;
     border-radius: 2em;
     padding: 0.5em 1em;
-    margin-left: 13.2em;
-    /*TODO : Refactor : este margin-left falla cuando minimizo la pantalla*/
-    display: inline-table;
+    margin: 1em auto;
+    clear: left;
+    display: table;
 }
 
 .footerText,.footerDesignerSignText {
@@ -78,6 +78,13 @@ h2 {
 .imgBorder {
     padding: 0.1em;
     border: 0.1em solid #6CA5FF;
+}
+
+/**
+ * Settea la alineación de las imágenes.
+ */
+.imgAlignment {
+    text-align: center;
 }
 
 .map {
@@ -156,12 +163,25 @@ h2 {
     color: gray;
 }
 
-.twoColumns {
+/**
+ * Separando con coma, es A o B. Separando con espacio es B hijo A. Sin separar, son los elementos que tengan A y B.
+ */
+.twoColumns,.twoColumnsSmall {
     margin-top: 2.5em;
     display: inline-block;
 }
 
 .twoColumns #leftColumn {
     float: left;
+    display: inline-block;
     margin-right: 5em;
+}
+
+.twoColumnsSmall #leftColumn {
+    float: left;
+    margin-right: 1em;
+}
+
+.twoColumnsSmall #rightColumn {
+    margin-top: 1em;
 }
