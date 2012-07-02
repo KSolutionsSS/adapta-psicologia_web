@@ -185,3 +185,18 @@ h2 {
 .twoColumnsSmall #rightColumn {
     margin-top: 1em;
 }
+
+/**
+ * Clase para usar junto con imageLink-linkedIn y las propias para cada sitio, por ej: Twitter, Facebook, etc.
+ */
+.imageLink {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 1.7em; /*Con 1.7em quedan originales los 25px de la imágen*/
+    height: 1.7em;
+    width: 1.7em;
+}
+
+.imageLink-linkedIn {
+    background-image: url("../images/link-linkedIn.png");
+}
