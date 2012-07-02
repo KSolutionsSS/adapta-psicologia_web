@@ -119,12 +119,29 @@ h2 {
     font-size: 0.8em;
 }
 
-.contactSite {
+.contactSite,.contactSiteMap {
+    height: 13.5em;
+    width: 30em;
     float: left;
-    margin: 0.5em;
     background-color: rgba(189, 255, 137, 0.24);
-    border-radius: 1em;
     padding: 0.5em 0.8em; /*top-right-bottom-left*/
+}
+
+/**
+ * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
+ */
+.contactSite {
+    margin: 0.5em 0.5em 0em 0.5em;
+    border-radius: 1em 1em 0em 0em;
+}
+
+/**
+ * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
+ */
+.contactSiteMap {
+    margin: 0em 0.5em 1em 0.5em;
+    border-radius: 0em 0em 1em 1em;
+    display: inline-table;
 }
 
 /**

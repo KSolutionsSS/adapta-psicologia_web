@@ -35,7 +35,11 @@
 					</span>
 				{{/transitLines}}
 			</ul>
-
+		</section>
+	{{/sites}}
+	<br style="clear:left"/>
+	{{#sites}}
+		<div class="contactSiteMap">
 			<p>Nuestra consulta est&aacute; ubicada en:</p>
 
 			<iframe class="map" frameborder="0" scrolling="no"
@@ -44,8 +48,7 @@
 			<small>
 				<a class="expandMapLabel" target="_blank" href="{{map.urlLink}}">Ver mapa m&aacute;s grande</a>
 			</small>
-
-		</section>
+		</div>
 	{{/sites}}
 
 </script>
