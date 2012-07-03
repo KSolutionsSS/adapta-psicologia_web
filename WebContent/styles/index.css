@@ -29,14 +29,15 @@ nav {
 nav a {
     display: inline-block;
     padding: 0.5em 1em;
+    margin: 0em 0.06em;
     background-color: rgba(216, 255, 216, 0.87);
-    border-radius: 0.4em;
-    color: rgba(95, 95, 95);
+    border-radius: 0.6em;
+    color: rgb(114, 114, 114);
 }
 
 nav a:HOVER {
-    background-color: #C9FAC9;
-    color: rgba(95, 95, 95, 0.53);
+    background-color: rgba(252, 252, 252, 0.75);
+    color: rgba(95, 95, 95, 0.70);
     text-decoration: none;
 }
 
@@ -44,7 +45,7 @@ nav a:HOVER {
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
  */
 #main {
-    background-color: rgba(234, 244, 245, 0.6);
+    background-color: rgba(223, 252, 255, 0.6);
     border-radius: 2em;
     padding: 1.7em 2em;
 }
@@ -150,7 +151,7 @@ h2,h3 {
     height: 13.5em;
     width: 30em;
     float: left;
-    background-color: rgba(189, 255, 137, 0.24);
+    background-color: rgba(148, 255, 65, 0.24);
     padding: 0.5em 0.8em; /*top-right-bottom-left*/
 }
 
