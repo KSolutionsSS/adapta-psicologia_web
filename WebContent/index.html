@@ -22,7 +22,7 @@
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <![endif] -->
 
 <!-- Le fav and touch icons -->
 <link rel="shortcut icon" href="images/favicon.png">
@@ -34,28 +34,20 @@
 
 <body>
 
-
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span
-                    class="icon-bar"></span> <span class="icon-bar"></span>
-                </a> <span class="brand"><span class="psi-big">&Psi;</span> Adapta Psicolog&iacute;a</span>
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="#" class="menuLink" onclick="views.index.showSection(0);">Inicio</a></li>
-                        <li><a href="#" class="menuLink" onclick="views.index.showSection(1);">Acerca del psic&oacute;logo</a></li>
-                        <li><a href="#" class="menuLink" onclick="views.index.showSection(5);">Contacto</a></li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
+    <header>
+        <div>
+            <span class="psi-big">&Psi;</span>
+            <h1>Adapta Psicología</h1>
         </div>
-    </div>
 
-    <div id="mainContainer" class="container">
-        <div id="content"></div>
-    </div>
+        <nav>
+            <a href="#" class="menuLink" onclick="views.index.showSection(0);">Inicio</a>
+            <a href="#" class="menuLink" onclick="views.index.showSection(1);">Acerca del psic&oacute;logo</a>
+            <a href="#" class="menuLink" onclick="views.index.showSection(5);">Contacto</a>
+        </nav>
+    </header>
+    
+    <div id="main" class="container"></div>
 
     <footer>
         <hr>

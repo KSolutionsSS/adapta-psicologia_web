@@ -21,12 +21,12 @@ views.index = (function() {
 
 		var render = function(customView) {
 
-			$('#content').empty();
+			$('#main').empty();
 
 			$.get("partialViews/" + customView.url, function(template) {
 				$("body").append(template);
 
-				$('#content').append(
+				$('#main').append(
 						$.mustache($(customView.templateScriptId).html(),
 								customView.info()));
 			});
@@ -60,7 +60,7 @@ views.index = (function() {
 function oldShowSection(sectionId) {
 	// TODO : Refactor : Put this method into showSection.
 
-	$('#content').empty();
+	$('#main').empty();
 
 	var json;
 	var url;
@@ -112,7 +112,7 @@ function oldShowSection(sectionId) {
 
 		var items = $.mustache($(templateScriptId).html(), json);
 
-		$('#content').append(items);
+		$('#main').append(items);
 
 		if (sectionId > 40) {
 			// .stop(true) es para que si el usuario invoca esto mas de una vez
