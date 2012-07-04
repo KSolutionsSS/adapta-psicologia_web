@@ -1,10 +1,21 @@
+/* ================================================================= */
+/* ============================INDEX.HTML========================= */
+/* ================================================================= */
+
+/**
+ * Setteo el ancho que tendrá la página.
+ */
+.container{
+    width: 1024px;
+}
+
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.9em;
 }
 
 header {
-    margin: 1.6em 0em 0em 13.9em;
+    margin: 1.6em 0em 0em 16.7em;
     text-align: center;
 }
 
@@ -13,7 +24,7 @@ header h1,header span {
 }
 
 header h1 {
-    margin: 0em 1em 0em 0.3em;
+    margin: 0em 0.8em 0em 0.3em;
     font-size: 2.3em;
 }
 
@@ -50,14 +61,14 @@ nav a:HOVER {
     padding: 1.7em 2em;
 }
 
-h2,h3 {
-    color: black;
-    text-shadow: 0.1em 0.1em 0.4em #333;
-}
-
 #main h2 {
     text-align: center;
     margin-bottom: 0.75em;
+}
+
+h2,h3 {
+    color: black;
+    text-shadow: 0.1em 0.1em 0.4em #333;
 }
 
 .psi-small {
@@ -68,19 +79,6 @@ h2,h3 {
 .psi-big {
     font-family: 'Caudex', serif;
     font-size: 6em;
-}
-
-/**
- * Es para una especie de título que deba estar centrado y con sombra.
- */
-.centralText {
-    text-shadow: 0.1em 0.1em 0.9em black;
-    background-color: #ABFF9B;
-    border-radius: 2em;
-    padding: 0.5em 1em;
-    margin: 1em auto 0em;
-    clear: left;
-    display: table;
 }
 
 .footerText,.footerDesignerSignText {
@@ -100,77 +98,14 @@ h2,h3 {
     font-size: 0.65em;
 }
 
-/**
- * Asigna un borde de color. Se usa en las imágenes.
- */
-.imgBorder {
-    padding: 0.1em;
-    border: 0.1em solid #6CA5FF;
-}
-
-/**
- * Settea la alineación de las imágenes.
- */
-.imgAlignment {
-    text-align: center;
-}
-
-.map {
-    padding: 0.1em;
-    border: 0.1em solid #6CA5FF;
-    width: 425px;
-    height: 350px;
-    margin: 0;
-}
-
-#fixedMenu {
-    position: fixed;
-    background-color: rgba(235, 239, 249, 0.8);
-    border-radius: 0.8em;
-    padding: 0.8em;
-    width: 10.5em;
-    margin-top: 35%;
-    margin-left: 73%;
-}
-
-.relatedSection {
-    margin: 1em;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 1em;
-    padding: 0.5em 0.8em; /*top-right-bottom-left*/
-    display: table;
-    /*Descomentar float para related2.html*/
-    /*     float: left; */
-}
-
+/* ================================================================= */
+/* ============================CONTACT.HTML========================= */
+/* ================================================================= */
 .formLabel {
     font-size: 0.8em;
 }
 
-.contactSite,.contactSiteMap {
-    height: 13.5em;
-    width: 30em;
-    float: left;
-    background-color: rgba(148, 255, 65, 0.24);
-    padding: 0.5em 0.8em; /*top-right-bottom-left*/
-}
-
-/**
- * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
- */
-.contactSite {
-    margin: 0.5em 0.5em 0em 0.5em;
-    border-radius: 1em 1em 0em 0em;
-}
-
-/**
- * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
- */
-.contactSiteMap {
-    margin: 0em 0.5em 1em 0.5em;
-    border-radius: 0em 0em 1em 1em;
-    display: inline-table;
-}
+/* ================================================================= */
 
 /**
  * Estilos para las líneas de tránsito que me dejan cerca de las consultas.
@@ -204,9 +139,40 @@ h2,h3 {
 }
 
 /* ================================================================= */
-.expandMapLabel {
-    color: gray;
+.sites {
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
 }
+
+.contactSite,.contactSiteMap {
+    height: 13.5em;
+    width: 30em;
+    float: left;
+    background-color: rgba(148, 255, 65, 0.24);
+    padding: 0.5em 0.8em; /*top-right-bottom-left*/
+}
+
+/**
+ * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
+ */
+.contactSite {
+    margin: 0.5em 0.5em 0em 0.5em;
+    border-radius: 1em 1em 0em 0em;
+}
+
+/**
+ * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
+ */
+.contactSiteMap {
+    margin: 0em 0.5em 1em 0.5em;
+    border-radius: 0em 0em 1em 1em;
+    display: inline-table;
+}
+
+/* ================================================================= */
+/* ============================GENERICS============================= */
+/* ================================================================= */
 
 /* ================================================================= */
 /**
@@ -232,6 +198,44 @@ h2,h3 {
 }
 
 /* ================================================================= */
+
+/**
+ * Asigna un borde de color. Se usa en las imágenes.
+ */
+.imgBorder {
+    padding: 0.1em;
+    border: 0.1em solid #6CA5FF;
+}
+
+/* ================================================================= */
+
+/**
+ * Es para una especie de título que deba estar centrado y con sombra.
+ */
+.centralText {
+    text-shadow: 0.1em 0.1em 0.9em black;
+    background-color: #ABFF9B;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    margin: 1em auto 0em;
+    clear: left;
+    display: table;
+}
+
+/* ================================================================= */
+.map {
+    padding: 0.1em;
+    border: 0.1em solid #6CA5FF;
+    width: 425px;
+    height: 350px;
+    margin: 0;
+}
+
+.expandMapLabel {
+    color: gray;
+}
+
+/* ================================================================= */
 /**
  * Clase para usar junto con imageLink-linkedIn y las propias para cada sitio, por ej: Twitter, Facebook, etc.
  */
@@ -248,3 +252,24 @@ h2,h3 {
 }
 
 /* ================================================================= */
+/* ======================TODAVIA NO SE USAN========================= */
+/* ================================================================= */
+#fixedMenu {
+    position: fixed;
+    background-color: rgba(235, 239, 249, 0.8);
+    border-radius: 0.8em;
+    padding: 0.8em;
+    width: 10.5em;
+    margin-top: 35%;
+    margin-left: 73%;
+}
+
+.relatedSection {
+    margin: 1em;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 1em;
+    padding: 0.5em 0.8em; /*top-right-bottom-left*/
+    display: table;
+    /*Descomentar float para related2.html*/
+    /*     float: left; */
+}

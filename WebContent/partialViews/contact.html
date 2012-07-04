@@ -8,47 +8,49 @@
 		<li><dt>Teléfono m&oacute;vil:</dt><dd>{{cellphone}}</dd></li>
 	</ul>
 
-	{{#sites}}
-		<section class="contactSite">
-		    <h3>{{city}}</h3>
-			<br/>
+	<div id="prueba" class="sites">
+		{{#sites}}
+			<section class="contactSite">
+				<h3>{{city}}</h3>
+				<br/>
 
-			<ul>
-    			<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}.</li>
-				{{#phone}}<li><span class="formLabel">Teléfono: </span>{{phone}}.</li>{{/phone}}
-				{{#fax}}<li><span class="formLabel">Fax: </span>{{fax}}.</li>{{/fax}}
-				{{#transitLines}}
-					<span class="transitLine">
-						<li>¿Cómo llegar?</li>
-						{{#train}}
-							<dt>Líneas de <abbr title="Ferrocarriles de la Generalidad de Cataluña" class="initialism">FGC</abbr>:</dt>
-							<dd>{{{train}}}</dd>
-						{{/train}}
-						{{#subway}}
-							<dt>Metro:</dt>
-							<dd>{{{subway}}}</dd>
-						{{/subway}}
-						{{#bus}}
-							<dt>Autob&uacute;s:</dt>
-							<dd>{{{bus}}}</dd>
-						{{/bus}}
-					</span>
-				{{/transitLines}}
-			</ul>
-		</section>
-	{{/sites}}
-	<br style="clear:left"/>
-	{{#sites}}
-		<div class="contactSiteMap">
-			<p>Nuestra consulta est&aacute; ubicada en:</p>
+				<ul>
+					<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}.</li>
+					{{#phone}}<li><span class="formLabel">Teléfono: </span>{{phone}}.</li>{{/phone}}
+					{{#fax}}<li><span class="formLabel">Fax: </span>{{fax}}.</li>{{/fax}}
+					{{#transitLines}}
+						<span class="transitLine">
+							<li>¿Cómo llegar?</li>
+							{{#train}}
+								<dt>Líneas de <abbr title="Ferrocarriles de la Generalidad de Cataluña" class="initialism">FGC</abbr>:</dt>
+								<dd>{{{train}}}</dd>
+							{{/train}}
+							{{#subway}}
+								<dt>Metro:</dt>
+								<dd>{{{subway}}}</dd>
+							{{/subway}}
+							{{#bus}}
+								<dt>Autob&uacute;s:</dt>
+								<dd>{{{bus}}}</dd>
+							{{/bus}}
+						</span>
+					{{/transitLines}}
+				</ul>
+			</section>
+		{{/sites}}
+		<br style="clear:left"/>
+		{{#sites}}
+			<div class="contactSiteMap">
+				<p>Nuestra consulta est&aacute; ubicada en:</p>
 
-			<iframe class="map" frameborder="0" scrolling="no"
-				src="{{map.urlIframe}}"></iframe><br />
+				<iframe class="map" frameborder="0" scrolling="no"
+					src="{{map.urlIframe}}"></iframe><br />
 
-			<small>
-				<a class="expandMapLabel" target="_blank" href="{{map.urlLink}}">Ver mapa m&aacute;s grande</a>
-			</small>
-		</div>
-	{{/sites}}
+				<small>
+					<a class="expandMapLabel" target="_blank" href="{{map.urlLink}}">Ver mapa m&aacute;s grande</a>
+				</small>
+			</div>
+		{{/sites}}
+	</div>
 
 </script>
