@@ -14,7 +14,10 @@
 			<section>
 				<div class="contactSiteInfo">
 					<h3>{{city}}</h3>
-					<br/>
+					
+					{{#cityImageUrl}}
+						<img src="images/{{cityImageUrl}}"/>
+					{{/cityImageUrl}}
 	
 					<ul>
 						<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}.</li>

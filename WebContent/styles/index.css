@@ -157,6 +157,12 @@ h2,h3 {
     padding: 0.5em 0.8em; /*top-right-bottom-left | top&bottom-right&left*/
 }
 
+.contactSites section div img {
+    width: 25%;
+    float: right;
+    border-radius: 50%;
+}
+
 /**
  * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
  */
