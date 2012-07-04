@@ -6,7 +6,7 @@
  * Setteo el ancho que tendrá la página.
  */
 .container{
-    width: 1024px;
+    max-width: 1024px;
 }
 
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
@@ -139,16 +139,20 @@ h2,h3 {
 }
 
 /* ================================================================= */
+
 .contactSites {
     margin-left: auto;
     margin-right: auto;
-    width: 92%;
+    width: 91.5%;
 }
 
-.contactSiteInfo,.contactSiteMap {
+.contactSites section {
+    float: left;
+}
+
+.contactSites section div {
     height: 13.5em;
     width: 30em;
-    float: left;
     background-color: rgba(148, 255, 65, 0.24);
     padding: 0.5em 0.8em; /*top-right-bottom-left | top&bottom-right&left*/
 }
