@@ -111,7 +111,11 @@ h2,h3 {
 }
 
 #contactInfo #leftColumn {
-    margin-right: 50%;
+    margin-right: 20%;
+}
+
+#contactInfo #rightColumn {
+    display: block;
 }
 
 #contactInfo #rightColumn ul {
@@ -207,6 +211,7 @@ h2,h3 {
  * Separando con coma, es A o B. Separando con espacio es B hijo A. Sin separar, son los elementos que tengan A y B.
  */
 .twoColumns #rightColumn {
+    display: table;
     
 }
 
