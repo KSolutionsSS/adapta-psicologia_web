@@ -192,10 +192,14 @@ h2,h3 {
     display: inline-block;
 }
 
+.twoColumns #rightColumn{
+    display: -webkit-box;
+}
+
 .twoColumns #leftColumn {
     float: left;
     display: inline-block;
-    margin-right: 5em;
+    margin-right: 2em;
 }
 
 .twoColumnsSmall #leftColumn {
