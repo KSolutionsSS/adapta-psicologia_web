@@ -103,6 +103,11 @@ h2,h3 {
     font-size: 0.65em;
 }
 
+.bla {
+    margin-left: 0.6em;
+    margin-bottom: 1.5em;
+}
+
 /* ================================================================= */
 /* ============================CONTACT.HTML========================= */
 /* ================================================================= */
@@ -110,13 +115,12 @@ h2,h3 {
     font-size: 0.8em;
 }
 
-#contactInfo #leftColumn {
-    margin-right: 35%;
+#contactInfo #rightColumn a{
+    margin-left: 99%;
+    width: 20rem;
+    float:left;
 }
 
-#contactInfo #rightColumn {
-    display: block;
-}
 
 #contactInfo #rightColumn ul {
     list-style-type: none;
@@ -210,19 +214,25 @@ h2,h3 {
 /**
  * Separando con coma, es A o B. Separando con espacio es B hijo A. Sin separar, son los elementos que tengan A y B.
  */
+.twoColumns, .twoColumnsSmall {
+    margin: 0.75em;
+    display: inline-block;
+}
+ 
 .twoColumns #rightColumn {
     display: table;
-    
+}
+
+.twoColumns #leftColumn,.twoColumnsSmall #leftColumn {
+    float: left;
 }
 
 .twoColumns #leftColumn {
-    float: left;
-    display: inline-block;
+
     margin-right: 2em;
 }
 
 .twoColumnsSmall #leftColumn {
-    float: left;
     margin-right: 1em;
 }
 
@@ -250,7 +260,7 @@ h2,h3 {
     background-color: #ABFF9B;
     border-radius: 2em;
     padding: 0.5em 1em;
-    margin: 1em auto 0em;
+    margin: 1em auto;
     clear: left;
     display: table;
 }
