@@ -83,16 +83,6 @@ h2,h3 {
     text-shadow: 0.1em 0.1em 0.4em #333;
 }
 
-.psi-small {
-    font-family: 'Caudex', serif;
-    font-size: 1em;
-}
-
-.psi-big {
-    font-family: 'Caudex', serif;
-    font-size: 6em;
-}
-
 .footerText,.footerDesignerSignText {
     text-align: center;
     text-shadow: 0.1em 0.1em 0.9em black;
