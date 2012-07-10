@@ -12,7 +12,8 @@
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
- background-image: url("../images/baldozas.png");}
+    background-image: url("../images/baldozas.png");
+}
 
 header {
     margin: 1.6em 0em 0em 16.7em;
@@ -187,7 +188,7 @@ h2,h3 {
 
 .contactSites section div {
     height: 14.5em;
-    width: 33.5em;
+    width: 33.52em;
     background-color: rgba(148, 255, 65, 0.24);
     padding: 0.5em 0.8em; /*top-right-bottom-left | top&bottom-right&left*/
 }
