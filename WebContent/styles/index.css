@@ -11,8 +11,8 @@
 
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
-    font-size: 0.9em;
-}
+    font-size: 0.8em;
+ background-image: url("../images/baldozas.png");}
 
 header {
     margin: 1.6em 0em 0em 16.7em;
@@ -23,11 +23,10 @@ header h1,header span {
     float: left;
 }
 
-
 header img {
     margin-top: -65px;
-    width: 150px;
     float: left;
+    margin-left: 3%;
 }
 
 header h1 {
@@ -59,11 +58,15 @@ nav a:HOVER {
     text-decoration: none;
 }
 
+p {
+    text-align: justify;
+}
+
 /**
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
  */
 #main {
-    background-color: rgba(223, 252, 255, 0.6);
+    background-color: rgba(223, 252, 255, 0.88);
     border-radius: 2em;
     padding: 1.7em 2em;
 }
@@ -100,6 +103,7 @@ h2,h3 {
 .footerText img {
     width: 2em;
     margin-right: 0.5em;
+    margin-top: -0.5em;
 }
 
 .footerText {
@@ -107,7 +111,7 @@ h2,h3 {
 }
 
 .footerDesignerSignText {
-    font-size: 0.65em;
+    font-size: 0.7em;
 }
 
 .bla {
@@ -122,12 +126,11 @@ h2,h3 {
     font-size: 0.8em;
 }
 
-#contactInfo #rightColumn a{
+#contactInfo #rightColumn a {
     margin-left: 99%;
     width: 20rem;
-    float:left;
+    float: left;
 }
-
 
 #contactInfo #rightColumn ul {
     list-style-type: none;
@@ -183,8 +186,8 @@ h2,h3 {
 }
 
 .contactSites section div {
-    height: 13.5em;
-    width: 30em;
+    height: 14.5em;
+    width: 33.5em;
     background-color: rgba(148, 255, 65, 0.24);
     padding: 0.5em 0.8em; /*top-right-bottom-left | top&bottom-right&left*/
 }
@@ -221,11 +224,11 @@ h2,h3 {
 /**
  * Separando con coma, es A o B. Separando con espacio es B hijo A. Sin separar, son los elementos que tengan A y B.
  */
-.twoColumns, .twoColumnsSmall {
+.twoColumns,.twoColumnsSmall {
     margin: 0.75em;
     display: inline-block;
 }
- 
+
 .twoColumns #rightColumn {
     display: table;
 }
@@ -235,7 +238,6 @@ h2,h3 {
 }
 
 .twoColumns #leftColumn {
-
     margin-right: 2em;
 }
 
