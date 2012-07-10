@@ -13,6 +13,7 @@ body { /*	Para cambiar el font del sitio tendría que cambiar acá,
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
     background-image: url("../images/baldozas.png");
+    font-family: Arial, Georgia;
 }
 
 header {
