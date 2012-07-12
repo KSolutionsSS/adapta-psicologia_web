@@ -4,6 +4,7 @@
  */
 var views = views || {};
 
+
 $(document).ready(function() {
 	views.index.showSection(0);
 });
@@ -29,7 +30,11 @@ views.index = (function() {
 				$('#main').append(
 						$.mustache($(customView.templateScriptId).html(),
 								customView.info()));
+				
+				customView.init();
 			});
+			
+			
 		};
 
 		switch (sectionId) {

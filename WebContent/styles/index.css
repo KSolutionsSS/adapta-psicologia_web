@@ -229,7 +229,8 @@ h2,h3 {
 }
 
 .twoColumnsSmall #leftColumn {
-    margin-right: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
 }
 
 .twoColumnsSmall #rightColumn {
@@ -288,6 +289,20 @@ h2,h3 {
 
 .imageLink-linkedIn {
     background-image: url("../images/link-linkedIn.png");
+}
+
+/* ================================================================= */
+
+.slideshow {
+    width: 300px;
+    height: 450px;
+}
+
+.slideshow img {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 0.7em;
 }
 
 /* ================================================================= */
