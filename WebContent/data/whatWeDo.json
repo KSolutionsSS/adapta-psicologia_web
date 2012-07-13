@@ -1,0 +1,86 @@
+{
+	"sections": [
+		{
+			"title": "Área de psicología",
+			"paragraphs": [
+				{
+					"topImageUrl": "images/que hacemos-area psicologica.jpg",
+					"text": "Evaluación, diagnóstico y tratamiento de dificultades emocionales o psicopatológicas desde una perspectiva cognitivo-conductual basada en la evidencia científica."
+				}, {
+					"text": "El enfoque cognitivo-conductual investiga cómo aprendemos, tanto las conductas deseables, como perjudiciales. El qué aprendemos, es algo que depende de la constitución genética y, fundamentalmente, de las experiencias de vida particulares e intransferibles de cada individuo. Este enfoque posee una amplia variedad de estrategias y técnicas efectivas, que han hecho que se extienda a un amplio rango de trastornos psicológicos."
+				}, {
+					"text": "El objetivo de nuestro abordaje, es mejorar la calidad de vida de los niños y adolescentes (y de sus familias)."
+				}
+			],
+			"lists": [
+				{
+					"title": "Las patologías que abordamos son:",
+					"items": ["TDAH"
+						, "Trastornos del aprendizaje"
+						, "Trastornos de conducta"
+						, "Trastornos generalizados del desarrollo"
+						, "Trastornos de la conducta alimentaria"
+						, "Trastornos del sueño"
+						, "Trastornos adaptativos"
+						, "Trastornos de ansiedad"
+						, "Trastornos del estado de &aacute;nimo"]
+				}
+			]
+		}, {
+			"title": "Área de psicopedagogía (reeducaciones psicopedagógicas)",
+			"paragraphs": [
+				{
+					"topImageUrl": "images/que hacemos-reeducaciones psicopedagogicas.jpg",
+					"text": "En Adapta Psicología estamos especializados en las reeducaciones psicopedagógicas para los niños y adolescentes que tienen dificultades en los aprendizajes académicos."
+				}, {
+					"subtitle": "¿Qué es la reeducación psicopedagógica?",
+					"text": "Es una intervención personalizada que aborda los problemas relacionados con la conducta de los niños y los adolescentes delante de las obligaciones y actividades académicas."
+				}, {
+					"text": "Cada paciente es cuidadosamente evaluado para detectar en qué áreas específicas del aprendizaje tiene dificultades. Posteriormente se diseña una intervención psicopedagógica perfectamente ajustada a las necesidades de cada caso."
+				}
+			],
+			"lists": [
+				{
+					"title": "¿Qué objetivos tiene la reeducación psicopedagógica?",
+					"items": ["Recuperación de los aprendizajes: lecto-escritura, cálculo y matemáticas."
+						, "Promover la planificación y la organización del material escolar, de los apuntes, del horario, etc)"
+						, "Aprender técnicas y métodos de estudio eficaces para mejorar el rendimiento académico."
+						, "Mejorar las capacidades de atención y concentración."
+						, "Desarrollar una mayor motivación y auto-estima."
+						, "Aumentar las conductas adecuadas como: estar sentado correctamente en la silla, seguir las indicaciones de los maestros, respetar el turno de palabra, acabar las tareas, etc."
+						, "Disminuir las conductas inadecuadas como: discutir y pelearse con los compañeros, responder de forma impulsiva, levantarse constantemente de la silla, comentarios inadecuados, etc."
+						, "Aumentar la autonomía."]
+				}
+			]
+		}, {
+			"title": "Entrenamiento a padres",
+			"paragraphs": [
+				{
+					"topImageUrl": "images/que hacemos-entrenamiento a padres.jpg",
+					"text": "Los padres son los más adecuados para ayudar a sus hijos, uno de los motivos es porque  son quienes pasan más tiempo con ellos. La mejor forma de modificar el comportamiento de un niño es a través de la conducta de los padres, que pueden llegar a actuar como “coterapeutas” durante todo el proceso terapéutico."
+				}, {
+					"text": "El entrenamiento a padres es un programa de entrenamiento que ofrece pautas conductuales específicas a los padres de niños con TDAH y otros problemas conductuales asociados."
+				}
+			],
+			"lists": [
+				{
+					"title": "Algunos de los objetivos de este programa son:",
+					"items": ["Dar información sobre el trastorno."
+						, "Enseñar técnicas concretas para modificar la conducta de los hijos."
+						, "Aumentar la autoridad y competencia de los padres."
+						, "Mejorar la autorregulación de las habilidades parentales."
+						, "Establecimiento de límites claros y coherentes."
+						, "Mejorar la relación paterno-filial."]
+				}
+				, {
+					"title": "Algunas de las pautas y técnicas que se trabajan en sesión son:",
+					"items": ["Incrementar el reforzamiento positivo."
+						, "Economía de fichas."
+						, "Definir reglas y límites claros."
+						, "Aumentar la organización de la casa y la estructura del horario."
+						, "Establecer rutinas estables y predecibles."]
+				}
+			]
+		}
+	]
+}

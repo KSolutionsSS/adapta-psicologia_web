@@ -1,0 +1,34 @@
+<script id="whatWeDoTemplate" type="text/html">
+	<h2>¿Qué hacemos?</h2>
+
+	{{#sections}}
+		<section class="whatWeDo">
+			<h3>{{title}}</h3>
+			
+			{{#paragraphs}}
+				{{#topImageUrl}}
+					<img src="{{topImageUrl}}"/>
+				{{/topImageUrl}}
+				
+				{{#subtitle}}
+					<h4>{{subtitle}}</h4>
+				{{/subtitle}}
+				
+				<p>{{text}}</p>
+			{{/paragraphs}}
+			
+			{{#lists}}
+				<div>
+					<h4>{{title}}</h4>
+					{{#items}}
+						<ul>
+							<li>{{.}}</li>
+						</ul>
+					{{/items}}
+				</div>
+			{{/lists}}
+			<br/>
+		</section>
+	{{/sections}}
+
+</script>
