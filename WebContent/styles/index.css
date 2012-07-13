@@ -28,7 +28,7 @@ header h1,header span {
 header img {
     margin-top: -65px;
     float: left;
-    margin-left: 3%;
+    margin-left: 1.5%;
 }
 
 header h1 {
@@ -111,17 +111,19 @@ h2,h3 {
 /* ================================================================= */
 
 .whatWeDo {
+    margin-top: 0.5em;
     margin-bottom: 1em;
     clear:left;
+    display: inline-block;
 }
 
 .whatWeDo div {
     float:left;
-    margin-left:2em;
+    margin-right: 2em;
 }
 
 .whatWeDo img{
-    margin-bottom: 0.6em;
+    margin: 0.6em 0em 1.3em;
     border-radius: 4em;
 }
 /* ================================================================= */
