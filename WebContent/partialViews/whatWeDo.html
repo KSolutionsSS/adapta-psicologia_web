@@ -5,28 +5,31 @@
 		<section class="whatWeDo">
 			<h3>{{title}}</h3>
 			
-			{{#paragraphs}}
-				{{#topImageUrl}}
-					<img src="{{topImageUrl}}"/>
-				{{/topImageUrl}}
+			<div class="content">
+				{{#paragraphs}}
+					{{#topImageUrl}}
+						<img src="{{topImageUrl}}"/>
+					{{/topImageUrl}}
+					
+					{{#subtitle}}
+						<h4>{{subtitle}}</h4>
+					{{/subtitle}}
+					
+					<p>{{text}}</p>
+				{{/paragraphs}}
 				
-				{{#subtitle}}
-					<h4>{{subtitle}}</h4>
-				{{/subtitle}}
-				
-				<p>{{text}}</p>
-			{{/paragraphs}}
+				{{#lists}}
+					<div>
+						<h4>{{title}}</h4>
+						<ul>
+							{{#items}}
+								<li>{{.}}</li>
+							{{/items}}
+						</ul>
+					</div>
+				{{/lists}}	
+			</div>
 			
-			{{#lists}}
-				<div>
-					<h4>{{title}}</h4>
-					<ul>
-						{{#items}}
-							<li>{{.}}</li>
-						{{/items}}
-					</ul>
-				</div>
-			{{/lists}}
 			<br/>
 		</section>
 	{{/sections}}

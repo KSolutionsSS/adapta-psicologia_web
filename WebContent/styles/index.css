@@ -28,7 +28,7 @@ header h1,header span {
 header img {
     margin-top: -65px;
     float: left;
-    margin-left: 1.5%;
+    margin-left: 21px;
 }
 
 header h1 {
@@ -115,6 +115,10 @@ h2,h3 {
     margin-bottom: 1em;
     clear:left;
     display: inline-block;
+}
+
+.whatWeDo .content{
+    padding-left: 3em;
 }
 
 .whatWeDo div {
