@@ -16,7 +16,6 @@ views.whatWeDo = (function() {
 	};
 
 	var init = function(param) {
-		console.log("Llego!!");
 	};
 
 	return {
