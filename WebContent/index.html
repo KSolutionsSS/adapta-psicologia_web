@@ -50,10 +50,18 @@
             <img src="images/logo.png">
             <nav>
                 <a href="#" onclick="views.index.showSection(0);">Inicio</a>
-                <a href="#" onclick="views.index.showSection(1);">¿Qu&eacute; hacemos?</a>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">¿Qu&eacute; hacemos?<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="views.index.showSection(11);">Psicolog&iacute;a</a></li>
+                        <li><a href="#" onclick="views.index.showSection(12);">Psicopedagog&iacute;a</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" onclick="views.index.showSection(13);">Entrenamiento a padres</a></li>
+                    </ul>
+                </div>
                 <a href="#" onclick="views.index.showSection(2);">Acerca del psic&oacute;logo</a>
                 <a href="#" onclick="views.index.showSection(3);">Contacto</a>
-            </nav>
+        </nav>
         </header>
         
         <div id="main" class="container"></div>

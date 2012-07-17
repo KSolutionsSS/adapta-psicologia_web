@@ -1,7 +1,6 @@
 /* ================================================================= */
 /* ============================INDEX.HTML=========================== */
 /* ================================================================= */
-
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
@@ -23,7 +22,7 @@ header img {
     float: left;
 }
 
-h2, h3 {
+h2,h3 {
     color: black;
     text-shadow: 0.1em 0.1em 0.4em #333;
 }
@@ -36,7 +35,7 @@ nav {
     display: inline-table;
     margin-top: 115px;
     margin-right: 1em;
-    float:right;
+    float: right;
 }
 
 nav a {
@@ -52,6 +51,25 @@ nav a:HOVER {
     background-color: rgba(252, 252, 252, 0.75);
     color: rgba(95, 95, 95, 0.70);
     text-decoration: none;
+}
+
+nav .dropdown-menu a:HOVER {
+    background-color: rgba(216, 255, 216, 0.87);
+    color: black;
+}
+
+/**
+ * Lo pongo inline-block para que se acomode horizontalmente como el resto de los items del menú principal.
+ */
+nav .dropdown {
+    display: inline-block;
+}
+
+/**
+ * Los links de los dropdown, lo pongo en blanco para que no quede verde como el resto de los <a> del header.
+ */
+nav .dropdown-menu a {
+    background-color: white;
 }
 
 p {
@@ -325,8 +343,7 @@ p {
 /* ================================================================= */
 /* =========================SOBREESCRIBO============================ */
 /* ================================================================= */
-
-.nav-tabs{
+.nav-tabs {
     border-bottom: 1px solid white;
 }
 
@@ -337,7 +354,7 @@ p {
 .nav-tabs li a:HOVER {
     color: black;
     border: 1px solid white;
-    background-color: rgba(195, 250, 255,0.3);
+    background-color: rgba(195, 250, 255, 0.3);
 }
 
 /* ================================================================= */

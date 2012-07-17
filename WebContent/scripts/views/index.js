@@ -19,7 +19,7 @@ views.index = (function() {
 	 */
 	var showSection = function(sectionId) {
 
-		var render = function(customView) {
+		var render = function(customView, sectionId) {
 
 			$('#main').empty();
 
@@ -30,14 +30,14 @@ views.index = (function() {
 						$.mustache($(customView.templateScriptId).html(),
 								customView.info()));
 
-				customView.init();
+				customView.init(sectionId);
 			});
 
 		};
 
 		switch (sectionId) {
-		case 1:
-			render(views.whatWeDo);
+		case 0:
+			render(views.home);
 			break;
 		case 2:
 			render(views.about);
@@ -45,10 +45,12 @@ views.index = (function() {
 		case 3:
 			render(views.contact);
 			break;
-		default:
-			render(views.home);
-			break;
 		}
+		
+		if(sectionId>10){
+			render(views.whatWeDo, sectionId);
+		}
+		
 	};// Fín views.index.showSection
 
 	// Defino el objeto que va a valer index, con sus atributos y funciones.
