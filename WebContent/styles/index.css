@@ -1,6 +1,7 @@
 /* ================================================================= */
-/* ============================INDEX.HTML========================= */
+/* ============================INDEX.HTML=========================== */
 /* ================================================================= */
+
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
@@ -14,11 +15,11 @@ a {
 
 header {
     max-width: 1024px;
-    display: table;
+    min-width: 680px;
     margin: 0px auto;
 }
 
-header span {
+header img {
     float: left;
 }
 
@@ -31,9 +32,11 @@ nav {
     background-color: rgb(173, 255, 169);
     border-radius: 7em 7em 1em 1em;
     padding: 0.5em 3em;
-    display: inline-table;
     text-align: center;
-    margin-bottom: -3px;
+    display: inline-table;
+    margin-top: 115px;
+    margin-right: 1em;
+    float:right;
 }
 
 nav a {
@@ -60,11 +63,12 @@ p {
  */
 .container {
     max-width: 1024px;
-    min-width: 540px;
+    min-width: 655px;
     background-color: rgba(223, 252, 255, 0.88);
     border-radius: 2em;
     padding: 1.7em 2em;
     margin: 0px auto;
+    clear: both;
 }
 
 .container h2 {
