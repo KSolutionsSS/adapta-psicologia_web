@@ -1,6 +1,9 @@
 {
+	"title": "¿Qu&eacute; hacemos?",
 	"sections": [
 		{
+			"tabId":"psico",
+			"tabLabel":"Psicolog&iacute;a",
 			"title": "&Aacute;rea de psicolog&iacute;a",
 			"paragraphs": [
 				{
@@ -27,6 +30,8 @@
 				}
 			]
 		}, {
+			"tabId":"psicopeda",
+			"tabLabel":"Psicopedagog&iacute;a",
 			"title": "&Aacute;rea de psicopedagog&iacute;a (reeducaciones psicopedag&oacute;gicas)",
 			"paragraphs": [
 				{
@@ -53,6 +58,8 @@
 				}
 			]
 		}, {
+			"tabId":"training",
+			"tabLabel":"Entrenamiento a padres",
 			"title": "Entrenamiento a padres",
 			"paragraphs": [
 				{

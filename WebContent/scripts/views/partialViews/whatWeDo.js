@@ -16,6 +16,7 @@ views.whatWeDo = (function() {
 	};
 
 	var init = function(param) {
+		$('#sectionsTab a:first').tab('show');
 	};
 
 	return {

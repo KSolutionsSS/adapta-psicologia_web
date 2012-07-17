@@ -18,6 +18,8 @@ views.about = (function() {
 	return {
 		info : info,
 		url : url,
-		templateScriptId : templateScriptId
+		templateScriptId : templateScriptId,
+		init : function(param) {
+		}
 	};
 })();
