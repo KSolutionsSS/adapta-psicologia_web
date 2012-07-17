@@ -1,105 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Adapta Psicolog&iacute;a</title>
-<meta name="description" content="la descripcion">
-<meta name="author" content="Nahuel Barrios">
-
-<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-<!-- Los estilos -->
-<link href="./scripts/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="./scripts/lib/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-
-<!-- El mío al final para poder pisar todo lo que querramos pisar del resto de los CSS -->
-<link href="./styles/index.css" rel="stylesheet">
-
-<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif] -->
-
-<!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="images/favicon.png">
-<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png"> -->
-<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png"> -->
-<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png"> -->
-<!-- <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"> -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Adapta Psicolog&iacute;a</title>
+        <meta name="description" content="Adapta es un consultorio de psicología especializado en el tratamiento de niños y adolescentes.">
+        <meta name="author" content="Nahuel Barrios">
+        
+        <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        
+        <!-- Los estilos -->
+        <!-- El mío al final para poder pisar todo lo que querramos pisar del resto de los CSS -->
+        <link href="./styles/index.css" rel="stylesheet">
+        
+        <!-- HTML5 shim, para soportar  los elementos de HTML5 en IE6-8 -->
+        <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
     
-    <script type="text/javascript">
-    	var _gaq = _gaq || [];
-    	_gaq.push([ '_setAccount', 'UA-33278450-1' ]);
-    	_gaq.push([ '_trackPageview' ]);
+        <!-- El favicon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        
+        <!-- Google Analytics -->
+        <!-- script type="text/javascript">
+        	var _gaq = _gaq || [];
+        	_gaq.push([ '_setAccount', 'UA-33278450-1' ]);
+        	_gaq.push([ '_trackPageview' ]);
+        
+        	(function() {
+        		var ga = document.createElement('script');
+        		ga.type = 'text/javascript';
+        		ga.async = true;
+        		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        				: 'http://www')
+        				+ '.google-analytics.com/ga.js';
+        		var s = document.getElementsByTagName('script')[0];
+        		s.parentNode.insertBefore(ga, s);
+        	})();
+        </script-->
+    </head>
     
-    	(function() {
-    		var ga = document.createElement('script');
-    		ga.type = 'text/javascript';
-    		ga.async = true;
-    		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-    				: 'http://www')
-    				+ '.google-analytics.com/ga.js';
-    		var s = document.getElementsByTagName('script')[0];
-    		s.parentNode.insertBefore(ga, s);
-    	})();
-    </script>
-</head>
-
-<body>
-
-    <header>
-        <div>
+    <body>
+    
+        <header>
             <img src="images/logo.png">
-            <h1>Adapta Psicología</h1>
-        </div>
-
-        <nav>
-            <a href="#" class="menuLink" onclick="views.index.showSection(0);">Inicio</a>
-            <a href="#" class="menuLink" onclick="views.index.showSection(1);">¿Qué hacemos?</a>
-            <a href="#" class="menuLink" onclick="views.index.showSection(2);">Acerca del psic&oacute;logo</a>
-            <a href="#" class="menuLink" onclick="views.index.showSection(3);">Contacto</a>
-        </nav>
-    </header>
+            <nav>
+                <a href="#" onclick="views.index.showSection(0);">Inicio</a>
+                <a href="#" onclick="views.index.showSection(1);">¿Qu&eacute; hacemos?</a>
+                <a href="#" onclick="views.index.showSection(2);">Acerca del psic&oacute;logo</a>
+                <a href="#" onclick="views.index.showSection(3);">Contacto</a>
+            </nav>
+        </header>
+        
+        <div id="main" class="container"></div>
     
-    <div id="main" class="container"></div>
-
-    <footer>
-        <hr>
-        <p class="footerText">
-            <img src="images/favicon.png"> Adapta Psicolog&iacute;a&copy; 2012 | Todos los derechos reservados.
-        </p>
-        <p class="footerText">
-            Tel.: 93 873-1763
-            | Mov.: 628-838-564
-            | Correo electr&oacute;nico: <a href="mailto:adapta@adaptapsicologia.com?subject=Consulta">adapta@adaptapsicologia.com</a>
-            | <a href="https://www.facebook.com/adaptapsicologia.adaptapsicologia" target="_blank"><img src="images/facebook.png" />¡Visitanos en Facebook!</a>
-        </p>
-        <p class="footerDesignerSignText">
-            Este sitio fu&eacute; dise&ntilde;ado por Nahuel Barrios | <a href="mailto:barrios.nahuel@gmail.com?">barrios.nahuel@gmail.com</a>
-        </p>
-    </footer>
-
-    <!-- ================================================================== -->
-    <!-- Los JS al finál del documento para que la página cargue más rápido -->
-
-    <!-- Las bibliotecas -->
-    <script type="text/javascript" src="scripts/lib/jquery/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="scripts/lib/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="scripts/lib/mustache.js"></script>
-    <script type="text/javascript" src="scripts/lib/jquery.cycle.lite.js"></script>
-
-    <!-- El JS propio del index.html -->
-    <script type="text/javascript" src="scripts/views/index.js"></script>
-
-    <!-- Los js propios de cada partialView -->
-    <script type="text/javascript" src="scripts/views/partialViews/home.js"></script>
-    <script type="text/javascript" src="scripts/views/partialViews/whatWeDo.js"></script>
-    <script type="text/javascript" src="scripts/views/partialViews/about.js"></script>
-    <script type="text/javascript" src="scripts/views/partialViews/contact.js"></script>
+        <footer>
+            <hr>
+            <p class="footerText">
+                <img src="images/favicon.png"> Adapta Psicolog&iacute;a&copy; 2012 | Todos los derechos reservados.
+            </p>
+            <p class="footerText">
+                Tel.: 93 873-1763
+                | Mov.: 628-838-564
+                | Correo electr&oacute;nico: adapta@adaptapsicologia.com
+                | <a href="https://www.facebook.com/adaptapsicologia.adaptapsicologia" target="_blank"><img src="images/facebook.png" />¡Visitanos en Facebook!</a>
+            </p>
+            <p class="footerDesignerSignText">
+                Este sitio fu&eacute; dise&ntilde;ado por Nahuel Barrios | barrios.nahuel@gmail.com
+            </p>
+        </footer>
     
-
-</body>
+    
+        <!-- ================================================================== -->
+        <!-- Los JS al finál del documento para que la página cargue más rápido -->
+    
+        <!-- Las bibliotecas -->
+        <script type="text/javascript" src="scripts/lib/jquery/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="scripts/lib/mustache.js"></script>
+        <script type="text/javascript" src="scripts/lib/jquery.cycle.lite.js"></script>
+    
+        <!-- El JS propio del index.html -->
+        <script type="text/javascript" src="scripts/views/index.js"></script>
+    
+        <!-- Los js propios de cada partialView -->
+        <script type="text/javascript" src="scripts/views/partialViews/home.js"></script>
+        <script type="text/javascript" src="scripts/views/partialViews/whatWeDo.js"></script>
+        <script type="text/javascript" src="scripts/views/partialViews/about.js"></script>
+        <script type="text/javascript" src="scripts/views/partialViews/contact.js"></script>
+    
+    </body>
 </html>

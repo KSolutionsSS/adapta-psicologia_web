@@ -1,14 +1,6 @@
 /* ================================================================= */
 /* ============================INDEX.HTML========================= */
 /* ================================================================= */
-
-/**
- * Setteo el ancho que tendrá la página.
- */
-.container {
-    max-width: 1024px;
-}
-
 body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
     	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
@@ -16,33 +8,32 @@ body { /*	Para cambiar el font del sitio tendría que cambiar acá,
     font-family: Arial, Georgia;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
-    margin: 1.6em 0em 0em 16.7em;
-    text-align: center;
+    max-width: 1024px;
+    display: table;
+    margin: 0px auto;
 }
 
-header h1,header span {
+header span {
     float: left;
 }
 
-header img {
-    margin-top: -65px;
-    float: left;
-    margin-left: 21px;
-}
-
-header h1 {
-    margin: 0.2em 0.8em 0em 0.3em;
-    font-size: 2.3em;
+h2, h3 {
+    color: black;
+    text-shadow: 0.1em 0.1em 0.4em #333;
 }
 
 nav {
-    margin: 5em 0em 0em 13.9em;
     background-color: rgb(173, 255, 169);
-    text-align: center;
     border-radius: 7em 7em 1em 1em;
     padding: 0.5em 3em;
-    display: table;
+    display: inline-table;
+    text-align: center;
+    margin-bottom: -3px;
 }
 
 nav a {
@@ -68,19 +59,17 @@ p {
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
  */
 .container {
+    max-width: 1024px;
+    min-width: 540px;
     background-color: rgba(223, 252, 255, 0.88);
     border-radius: 2em;
     padding: 1.7em 2em;
+    margin: 0px auto;
 }
 
 .container h2 {
     margin-bottom: 0.75em;
     margin-left: 40%;
-}
-
-h2,h3 {
-    color: black;
-    text-shadow: 0.1em 0.1em 0.4em #333;
 }
 
 .footerText,.footerDesignerSignText {
@@ -96,6 +85,7 @@ h2,h3 {
     width: 2em;
     margin-right: 0.5em;
     margin-top: -0.5em;
+    vertical-align: middle;
 }
 
 .footerText {
@@ -109,24 +99,23 @@ h2,h3 {
 /* ================================================================= */
 /* ============================WHATWEDO.HTML======================== */
 /* ================================================================= */
-
 .whatWeDo {
     margin-top: 0.5em;
     margin-bottom: 1em;
-    clear:left;
+    clear: left;
     display: inline-block;
 }
 
-.whatWeDo .content{
+.whatWeDo .content {
     padding-left: 3em;
 }
 
 .whatWeDo div {
-    float:left;
+    float: left;
     margin-right: 2em;
 }
 
-.whatWeDo img{
+.whatWeDo img {
     margin: 0.6em 0em 1.3em;
     border-radius: 4em;
 }
@@ -149,6 +138,7 @@ h2,h3 {
 
 #contactInfo #rightColumn img {
     margin-right: 1%;
+    vertical-align: middle;
 }
 
 /* ================================================================= */
@@ -186,10 +176,10 @@ h2,h3 {
 
 /* ================================================================= */
 .contactSites {
-    margin-left: auto;
-    margin-right: auto;
     width: 91.5%;
     clear: left;
+    display: table;
+    margin: 0px auto;
 }
 
 .contactSites section {
@@ -316,7 +306,6 @@ h2,h3 {
 }
 
 /* ================================================================= */
-
 .slideshow {
     width: 300px;
     height: 450px;
