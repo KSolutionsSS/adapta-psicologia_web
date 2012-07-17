@@ -2,11 +2,13 @@
 	"name": "Pablo A. Barrionuevo Grabinski",
 	"email": "adapta@adaptapsicologia.com",
 	"cellphone": "628-838-564",
+	"note": "Para ambas consultas el horario de atenci&oacute;n es a convenir.",
 	"sites": [
 		{
 			"city": "Barcelona",
 			"cityImageUrl": "barcelona-logo-250px.jpg",
 			"address": "C/Gran de Gr&agrave;cia 93, 4º 2ª. 08012 Barcelona.",
+			"availableDays": "L&uacute;nes, Mi&eacute;rcoles y Viernes.",
 			"transitLines": {
 				"train": "<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>",
 				"bus": "22, 24, 28, 87, 114",
@@ -19,6 +21,7 @@
 		}, {
 			"city": "Manresa",
 			"address": "C/moss&egrave;n Jacint Verdaguer 38, 1º 1ª. 08241 Manresa.",
+			"availableDays": "M&aacute;rtes y Jueves.",
 			"phone": "93 873-1763",
 			"map": {
 				"urlIframe": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+de+Moss%C3%A8n+Jacint+Verdaguer,+38,+Manresa,+Espa%C3%B1a&amp;aq=&amp;sll=41.597567,2.170245&amp;sspn=0.734281,1.632843&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+de+Moss%C3%A8n+Jacint+Verdaguer,+38,+08241+Manresa,+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.730762,1.832356&amp;spn=0.005605,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed",

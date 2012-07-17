@@ -1,6 +1,6 @@
 <script id="contactTemplate" type="text/html">
 	<h2>Contacto</h2>
-	<p>Información de contacto:</p>
+	<p>Informaci&oacute;n de contacto:</p>
 
 	<div id="contactInfo" class="twoColumns">
 		<div id="leftColumn">
@@ -8,6 +8,8 @@
 		    	<li><dt>Nombre:</dt><dd>{{name}}.</dd></li>
 		    	<li><dt>Email:</dt><dd>{{email}}</dd></li>
 				<li><dt>Teléfono m&oacute;vil:</dt><dd>{{cellphone}}</dd></li>
+				<br/>
+				<li>{{note}}</li>
 			</ul>
 		</div>
 		<div id="rightColumn">
@@ -30,14 +32,15 @@
 					{{/cityImageUrl}}
 	
 					<ul>
-						<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}</li>
-						{{#phone}}<li><span class="formLabel">Teléfono: </span>{{phone}}.</li>{{/phone}}
+						{{#availableDays}}<li><span class="formLabel">D&iacute;as de atenci&oacute;n: </span>{{availableDays}}</li>{{/availableDays}}
+						{{#address}}<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}</li>{{/address}}
+						{{#phone}}<li><span class="formLabel">Tel&eacute;fono: </span>{{phone}}.</li>{{/phone}}
 						{{#fax}}<li><span class="formLabel">Fax: </span>{{fax}}.</li>{{/fax}}
 						{{#transitLines}}
 							<span class="transitLine">
-								<li><span class="formLabel">¿Cómo llegar?</span></li>
+								<li><span class="formLabel">¿C&oacute;mo llegar?</span></li>
 								{{#train}}
-									<dt>Líneas de <abbr title="Ferrocarriles de la Generalidad de Cataluña" class="initialism">FGC</abbr>:</dt>
+									<dt>L&iacute;neas de <abbr title="Ferrocarriles de la Generalidad de Cataluña" class="initialism">FGC</abbr>:</dt>
 									<dd>{{{train}}}</dd>
 								{{/train}}
 								{{#subway}}
