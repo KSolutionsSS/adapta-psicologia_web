@@ -3,10 +3,47 @@
  * ese. Si no existe, lo crea.
  */
 var views = views || {};
+var site = site || {};
+
+site.language = "es";
 
 $(document).ready(function() {
-	views.index.showSection(0);
+	site.load(0);
 });
+
+site.render = function(customView, parentSelector, sectionId) {
+
+	$(parentSelector).empty();
+
+	var loadTemplateData = function() {
+		customView.info(function(json) {
+			var html = $.mustache($(customView.templateScriptId).html(), json);
+
+			$(parentSelector).append(html);
+
+			customView.init(sectionId);
+		});
+	};
+
+	if ($(customView.templateScriptId).length > 0) {
+		loadTemplateData();
+	} else {
+		$.get("partialViews/" + customView.url, function(template) {
+			$("body").append(template);
+			loadTemplateData();
+		});
+	}
+
+};// Fín site.render
+
+site.load = function(sectionId) {
+	site.render(views.header(), "body header");
+
+	sectionId = sectionId || 0;
+	views.index.showSection(sectionId);
+
+	site.render(views.footer(), "body footer");
+};
 
 views.index = (function() {
 
@@ -19,38 +56,24 @@ views.index = (function() {
 	 */
 	var showSection = function(sectionId) {
 
-		var render = function(customView, sectionId) {
-
-			$('#main').empty();
-
-			$.get("partialViews/" + customView.url, function(template) {
-				$("body").append(template);
-
-				$('#main').append(
-						$.mustache($(customView.templateScriptId).html(),
-								customView.info()));
-
-				customView.init(sectionId);
-			});
-
-		};
+		var parentSelector = "#main";
 
 		switch (sectionId) {
 		case 0:
-			render(views.home);
+			site.render(views.home(), parentSelector);
 			break;
 		case 2:
-			render(views.about);
+			site.render(views.about(), parentSelector);
 			break;
 		case 3:
-			render(views.contact);
+			site.render(views.contact(), parentSelector);
 			break;
 		}
-		
-		if(sectionId>10){
-			render(views.whatWeDo, sectionId);
+
+		if (sectionId > 10) {
+			site.render(views.whatWeDo(), parentSelector, sectionId);
 		}
-		
+
 	};// Fín views.index.showSection
 
 	// Defino el objeto que va a valer index, con sus atributos y funciones.

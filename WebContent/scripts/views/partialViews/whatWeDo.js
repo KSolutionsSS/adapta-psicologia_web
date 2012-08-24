@@ -1,18 +1,11 @@
 var views = views || {};
 
-var url = "whatWeDo.html";
-var templateScriptId = "#whatWeDoTemplate";
+views.whatWeDo = function() {
 
-views.whatWeDo = (function() {
-
-	var json;
-
-	$.getJSON('data/whatWeDo.json', function(data) {
-		json = data;
-	});
-
-	var info = function(param) {
-		return json;
+	var info = function(callback) {
+		$.getJSON("data/whatWeDo-" + site.language + ".json", function(json) {
+			callback(json);
+		});
 	};
 
 	var init = function(sectionId) {
@@ -39,8 +32,8 @@ views.whatWeDo = (function() {
 
 	return {
 		info : info,
-		url : url,
-		templateScriptId : templateScriptId,
+		url : "whatWeDo.html",
+		templateScriptId : "#whatWeDoTemplate",
 		init : init
 	};
-})();
+};

@@ -1,13 +1,14 @@
 <script id="contactTemplate" type="text/html">
+	
 	<h2>{{title}}</h2>
-	<p>Informaci&oacute;n de contacto:</p>
+	<h3>{{subTitle}}</h3>
 
 	<div id="contactInfo" class="twoColumns">
 		<div id="leftColumn">
 			<ul>
-		    	<li><dt>Nombre:</dt><dd>{{name}}.</dd></li>
-		    	<li><dt>Email:</dt><dd>{{email}}</dd></li>
-				<li><dt>Teléfono m&oacute;vil:</dt><dd>{{cellphone}}</dd></li>
+				{{#fields}}
+					<li><dt><label>{{{label}}}</label></dt><dd>{{{value}}}</dd></li>
+				{{/fields}}
 				<br/>
 				<li>{{note}}</li>
 			</ul>
@@ -32,38 +33,30 @@
 					{{/cityImageUrl}}
 	
 					<ul>
-						{{#availableDays}}<li><span class="formLabel">D&iacute;as de atenci&oacute;n: </span>{{availableDays}}</li>{{/availableDays}}
-						{{#address}}<li><span class="formLabel">Direcci&oacute;n: </span>{{address}}</li>{{/address}}
-						{{#phone}}<li><span class="formLabel">Tel&eacute;fono: </span>{{phone}}.</li>{{/phone}}
-						{{#fax}}<li><span class="formLabel">Fax: </span>{{fax}}.</li>{{/fax}}
-						{{#transitLines}}
+						{{#fields}}
+							<li><label>{{{label}}} </label>{{{value}}}</li>
+						{{/fields}}
+						
+						{{#location}}
 							<span class="transitLine">
-								<li><span class="formLabel">¿C&oacute;mo llegar?</span></li>
-								{{#train}}
-									<dt>L&iacute;neas de <abbr title="Ferrocarriles de la Generalidad de Cataluña" class="initialism">FGC</abbr>:</dt>
-									<dd>{{{train}}}</dd>
-								{{/train}}
-								{{#subway}}
-									<dt>Metro:</dt>
-									<dd>{{{subway}}}</dd>
-								{{/subway}}
-								{{#bus}}
-									<dt>Autob&uacute;s:</dt>
-									<dd>{{{bus}}}</dd>
-								{{/bus}}
+								{{#label}}<li><label>{{{label}}}</label></li>{{/label}}
+								{{#transitLines}}
+									<dt><label class="labelLarge">{{label}}</label></dt>
+									<dd>{{{value}}}</dd>
+								{{/transitLines}}
 							</span>
-						{{/transitLines}}
+						{{/location}}
 					</ul>
 				</div>
 	
 				<div class="contactSiteMap">
-					<p>Nuestra consulta est&aacute; ubicada en:</p>
+					<p>{{location.map.label}}</p>
 	
 					<iframe class="map" frameborder="0" scrolling="no"
-						src="{{map.urlIframe}}"></iframe><br />
+						src="{{location.map.urlIframe}}"></iframe><br />
 	
 					<small>
-						<a class="expandMapLabel" target="_blank" href="{{map.urlLink}}">Ver mapa m&aacute;s grande</a>
+						<a class="expandMapLabel" target="_blank" href="{{location.map.urlLink}}">{{location.map.labelExpand}}</a>
 					</small>
 				</div>
 			</section>

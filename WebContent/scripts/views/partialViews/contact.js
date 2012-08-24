@@ -1,24 +1,17 @@
 var views = views || {};
 
-var url = "contact.html";
-var templateScriptId = "#contactTemplate";
-
-views.contact = (function() {
-	var json;
-
-	$.getJSON('data/contact.json', function(data) {
-		json = data;
-	});
-
-	var info = function(param) {
-		return json;
+views.contact = function() {
+	var info = function(callback) {
+		$.getJSON("data/contact-" + site.language + ".json", function(json) {
+			callback(json);
+		});
 	};
 
 	return {
 		info : info,
-		url : url,
-		templateScriptId : templateScriptId,
+		url : "contact.html",
+		templateScriptId : "#contactTemplate",
 		init : function(param) {
 		}
 	};
-})();
+};

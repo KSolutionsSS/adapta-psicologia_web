@@ -1,0 +1,58 @@
+{
+    "paragraphs": [
+        {
+            "fields": [
+                {
+                    "value": "<img src=\"images/favicon.png\"> Adapta Psicologia&copy; 2012"
+                },
+                {
+                    "value": " | "
+                },
+                {
+                    "value": "Tots els drets reservats."
+                }
+            ]
+        },
+        {
+            "fields": [
+                {
+                    "label": "Tel.",
+                    "value": "93 873-1763"
+                },
+                {
+                    "value": " | "
+                },
+                {
+                    "label": "Mòb.",
+                    "value": "628-838-564"
+                },
+                {
+                    "value": " | "
+                },
+                {
+                    "label": "Email",
+                    "value": "adapta@adaptapsicologia.com"
+                },
+                {
+                    "value": " | "
+                },
+                {
+                    "value": "<a href=\"https://www.facebook.com/adaptapsicologia.adaptapsicologia\" target=\"_blank\"><img src=\"images/facebook.png\" />Visita'ns a Facebook!</a>"
+                }
+            ]
+        }
+    ],
+    "designerText": {
+        "fields": [
+            {
+                "value": "Aquest lloc va ser dissenyat per Nahuel Barrios"
+            },
+            {
+                "value": " | "
+            },
+            {
+                "value": "barrios.nahuel@gmail.com"
+            }
+        ]
+    }
+}

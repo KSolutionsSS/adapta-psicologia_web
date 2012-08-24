@@ -1,15 +1,11 @@
 var views = views || {};
 
-var url = "home.html";
-var templateScriptId = "#homeTemplate";
+views.home = function() {
 
-views.home = (function() {
-
-	var info = function(param) {
-		// Returns an object.
-		return {
-
-		};
+	var info = function(callback) {
+		$.getJSON("data/home-" + site.language + ".json", function(json) {
+			callback(json);
+		});
 	};
 
 	var init = function(param) {
@@ -20,8 +16,8 @@ views.home = (function() {
 
 	return {
 		info : info,
-		url : url,
-		templateScriptId : templateScriptId,
+		url : "home.html",
+		templateScriptId : "#homeTemplate",
 		init : init
 	};
-})();
+};

@@ -1,0 +1,22 @@
+<script id="footerTemplate" type="text/html">
+
+	<hr>
+
+	{{#paragraphs}}
+
+		<p class="footerText">
+        	{{#fields}}
+				{{#label}}{{label}}: {{/label}}{{{value}}}
+			{{/fields}}
+    	</p>
+
+	{{/paragraphs}}
+
+	{{#designerText}}
+    	<p class="footerDesignerSignText">
+        	{{#fields}}
+				{{{value}}}
+			{{/fields}}
+	    </p>
+	{{/designerText}}
+</script>

@@ -1,8 +1,8 @@
 /* ================================================================= */
 /* ============================INDEX.HTML=========================== */
 /* ================================================================= */
-body { /*	Para cambiar el font del sitio tendría que cambiar acá, 
-    	y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
+body { /*   Para cambiar el font del sitio tendría que cambiar acá, 
+        y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
     background-image: url("../images/baldozas.png");
     font-family: Arial, Georgia;
@@ -18,10 +18,6 @@ header {
     margin: 0px auto;
 }
 
-header img {
-    float: left;
-}
-
 h2,h3 {
     color: black;
     text-shadow: 0.1em 0.1em 0.4em #333;
@@ -33,7 +29,7 @@ nav {
     padding: 0.5em 3em;
     text-align: center;
     display: inline-table;
-    margin-top: 115px;
+    margin-top: 117px;
     margin-right: 1em;
     float: right;
 }
@@ -45,6 +41,10 @@ nav a {
     background-color: rgba(216, 255, 216, 0.87);
     border-radius: 0.6em;
     color: rgb(114, 114, 114);
+
+}
+nav>a{
+    float: left;    
 }
 
 nav a:HOVER {
@@ -59,10 +59,11 @@ nav .dropdown-menu a:HOVER {
 }
 
 /**
- * Lo pongo inline-block para que se acomode horizontalmente como el resto de los items del menú principal.
+ * Lo pongo inline-block para qse acomode horizontalmente como el resto de los items del menú principal.
  */
 nav .dropdown {
     display: inline-block;
+    float: left;
 }
 
 /**
@@ -72,8 +73,17 @@ nav .dropdown-menu a {
     background-color: white;
 }
 
+nav img {
+    width: 25px;
+    margin-left: 28px;
+}
+
 p {
     text-align: justify;
+}
+
+label {
+    font-size: 0.8em;
 }
 
 /**
@@ -91,7 +101,7 @@ p {
 
 .container h2 {
     margin-bottom: 0.75em;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 .footerText,.footerDesignerSignText {
@@ -146,6 +156,7 @@ p {
 /* ================================================================= */
 .formLabel {
     font-size: 0.8em;
+    margin-right: 0.5em;
 }
 
 #contactInfo #rightColumn a {
@@ -209,7 +220,7 @@ p {
 }
 
 .contactSites section div {
-    height: 14.5em;
+    height: 15.7em;
     width: 33.52em;
     background-color: rgba(148, 255, 65, 0.24);
     padding: 0.5em 0.8em; /*top-right-bottom-left | top&bottom-right&left*/
@@ -241,6 +252,9 @@ p {
 /* ================================================================= */
 /* ============================GENERICS============================= */
 /* ================================================================= */
+.labelLarge {
+    font-size: 0.85em;
+}
 
 /* ================================================================= */
 
@@ -375,27 +389,4 @@ p {
     color: black;
     border: 1px solid white;
     background-color: rgba(195, 250, 255, 0.3);
-}
-
-/* ================================================================= */
-/* ======================TODAVIA NO SE USAN========================= */
-/* ================================================================= */
-#fixedMenu {
-    position: fixed;
-    background-color: rgba(235, 239, 249, 0.8);
-    border-radius: 0.8em;
-    padding: 0.8em;
-    width: 10.5em;
-    margin-top: 35%;
-    margin-left: 73%;
-}
-
-.relatedSection {
-    margin: 1em;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 1em;
-    padding: 0.5em 0.8em; /*top-right-bottom-left*/
-    display: table;
-    /*Descomentar float para related2.html*/
-    /*     float: left; */
 }

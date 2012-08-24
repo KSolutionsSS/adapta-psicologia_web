@@ -1,25 +1,18 @@
 var views = views || {};
 
-var url = "about.html";
-var templateScriptId = "#aboutTemplate";
+views.about = function() {
 
-views.about = (function() {
-
-	var json;
-
-	$.getJSON('data/about.json', function(data) {
-		json = data;
-	});
-
-	var info = function(param) {
-		return json;
+	var info = function(callback) {
+		$.getJSON("data/about-" + site.language + ".json", function(json) {
+			callback(json);
+		});
 	};
 
 	return {
 		info : info,
-		url : url,
-		templateScriptId : templateScriptId,
+		url : "about.html",
+		templateScriptId : "#aboutTemplate",
 		init : function(param) {
 		}
 	};
-})();
+};
