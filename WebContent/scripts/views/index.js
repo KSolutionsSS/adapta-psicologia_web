@@ -5,7 +5,7 @@
 var views = views || {};
 var site = site || {};
 
-site.language = "es";
+site.language = "ca";
 
 $(document).ready(function() {
 	site.load(0);
