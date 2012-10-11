@@ -1,0 +1,23 @@
+<script id="headerTemplate" type="text/html">
+
+	<img src="images/logo.png">
+    <nav>
+		{{#menu}}    	
+			<a href="#" onclick="views.index.showSection(0);">{{item0}}</a>
+		    <div class="dropdown">
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{item1}}<b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+		            <li><a href="#" onclick="views.index.showSection(11);">{{item11}}</a></li>
+		            <li><a href="#" onclick="views.index.showSection(12);">{{item12}}</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#" onclick="views.index.showSection(13);">{{item13}}</a></li>
+		        </ul>
+		    </div>
+		    <a href="#" onclick="views.index.showSection(2);">{{item2}}</a>
+		    <a href="#" onclick="views.index.showSection(3);">{{item3}}</a>
+	    {{/menu}}
+	    
+	    <img id="changeLanguage" src="{{languageImageUrl}}" title="{{languageImageTitle}}">
+    </nav>
+
+</script>

@@ -1,0 +1,93 @@
+{
+	"title": "Qu&egrave; fem?",
+	"sections": [
+		{
+			"tabId": "psico",
+			"tabLabel": "Psicologia",
+			"title": "Àrea de psicologia",
+			"paragraphs": [
+				{
+					"topImageUrl": "images/queHacemos-areaPsicologica.jpg",
+					"text": "Avaluació, diagnòstic i tractament de dificultats emocionals o psicopatològiques des d'una perspectiva cognitiu-conductual basada en l'evidència científica."
+				}, {
+					"text": "L'enfocament cognitiu-conductual investiga com aprenem, tant les conductes desitjables, com perjudicials. El què aprenem, és una cosa que depèn de la constitució genètica i, fonamentalment, de les experiències de vida particulars i intransferibles de cada individu. Aquest enfocament té una àmplia varietat d'estratègies i tècniques efectives, que han fet que s'estengui a un ampli rang de trastorns psicològics."
+				}, {
+					"text": "L'objectiu del nostre abordatge, és millorar la qualitat de vida dels nens i adolescents (i de les seves famílies)."
+				}
+			],
+			"lists": [
+				{
+					"title": "Les patologies que tractem són:",
+					"items": ["TDAH"
+						, "Trastorns de l’ aprenentange"
+						, "Trastorns de la conducta"
+						, "Trastorns generalitzats del desenvolupament"
+						, "Trastorns de la conducta alimentària"
+						, "Trastorns del son"
+						, "Trastorns adaptatius"
+						, "Trastorns d’ansietat"
+						, "Trastorns de l’estat d’ànim"]
+				}
+			]
+		}, {
+			"tabId": "psicopeda",
+			"tabLabel": "Psicopedagogia",
+			"title": "&Agrave;rea de psicologia (reeducacions psicopedag&ograve;giques)",
+			"paragraphs": [
+				{
+					"topImageUrl": "images/queHacemos-reeducacionesPsicopedagogicas.jpg",
+					"text": "A Adapta Psicologia estem especialitzats en les reeducacions psicopedagògiques per als nens i adolescents que tenen dificultats en els aprenentatges acadèmics."
+				}, {
+					"subtitle": "Qu&egrave; és una reeducació psicopedagògica?",
+					"text": "És una intervenció personalitzada que tracta els problemes relacionats amb la conducta dels infants i els adolescents davant de les obligacions i activitats acadèmiques."
+				}, {
+					"text": "Cada pacient és curosament avaluat per detectar en quines àrees específiques de l’aprenentatge té dificultats. Posteriorment es dissenya una intervenció psicopedagògica perfectament ajustada a les necessitats de cada cas."
+				}
+			],
+			"lists": [
+				{
+					"title": "Quins objectius té la reeducació psicopedagògica?",
+					"items": ["Recuperació dels aprenentatges: lecto-escriptura, càlcul i matemàtiques."
+						, "Promoure la planificació i l’organització del material escolar, dels apunts, de l’horari, etc."
+						, "Aprendre tècniques i mètodes d’estudi eficaços per millorar el rendiment acadèmic."
+						, "Millorar les capacitats d’atenció i concentració."
+						, "Desenvolupar una major motivació i autoestima."
+						, "Augmentar les conductes adients com: estar assegut correctament a la cadira, seguir les indicacions dels mestres, respectar el torn de paraula, acabar les tasques, etc."
+						, "Disminuir les conductes inadequades com: discutir i barallar-se amb els companys, respondre de forma impulsiva, aixecar-se constantment de la cadira, fer comentaris inadequats, etc."
+						, "Augmentar la autonomia."]
+				}
+			]
+		}, {
+			"tabId": "training",
+			"tabLabel": "Entrenament a pares",
+			"title": "Entrenament a pares",
+			"paragraphs": [
+				{
+					"topImageUrl": "images/queHacemos-entrenamientoAPadres.jpg",
+					"text": "Els pares són els més adequats per ajudar els seus fills, un dels motius és perquè són els que passen més temps amb ells. La millor manera de modificar el comportament d’un nen es mitjançant la conducta dels seus pares, que poden arribar a actuar com a \"coterapeutes\" durant tot el procés terapèutic."
+				}, {
+					"text": "L’entrenament a pares és un programa d’entrenament que ofereix pautes conductuals específiques als pares de nens amb TDAH i altres problemes conductuals associats."
+				}
+			],
+			"lists": [
+				{
+					"title": "Alguns dels objectius d’aquest programa són:",
+					"items": ["Donar informació sobre el trastorn."
+						, "Ensenyar tècniques concretes per modificar la conducta dels fills."
+						, "Augmentar l’autoritat i competència dels pares."
+						, "Millorar l’autorregulació de les habilitats parentals."
+						, "Establir límits clars i coherents."
+						, "Millorar la relació paterno-filial."]
+				}
+				, {
+					"title": "Algunes pautes i tècniques que es treballen en sessió són:",
+					"items": ["Incrementar el reforçament positiu."
+						, "Economia de fitxes."
+						, "Definir regles i límits clars."
+						, "Augmentar l’organització de la casa i l’estructura de l’horari."
+						, "Establir rutines estables i predictibles."]
+				}
+			]
+		}
+	]
+}
