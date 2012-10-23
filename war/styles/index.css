@@ -216,36 +216,42 @@ label {
 }
 
 .contactSites section {
-    float: left;
+    margin-top: 1em;
+    border-radius: 1em 1em 1em 1em;
+    background-color: rgba(148, 255, 65, 0.24);
+        
 }
 
 .contactSites section div {
-    height: 15.7em;
-    width: 33.52em;
-    background-color: rgba(148, 255, 65, 0.24);
-    padding: 0.5em 0.8em; /*top-right-bottom-left | top&bottom-right&left*/
+    width: 33em;
+    padding: 0.5em 0.8em;
+    margin-left: 0.8em;
 }
 
 .contactSites section div img {
     width: 25%;
     float: right;
     border-radius: 50%;
+    margin-top: -5em;
 }
 
-/**
- * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
- */
 .contactSiteInfo {
-    margin: 0.5em 0.5em 0em 0.5em;
-    border-radius: 1em 1em 0em 0em;
+    float: left;
+}
+
+.contactSiteInfo h3 {
+    margin-bottom: 3em;
+}
+
+.contactSiteInfo ul li {
+    margin-bottom: 1.5em;
 }
 
 /**
  * Defino los márgenes y el redondeado del borde para que se "mezcle" con la parte de arriba.
  */
 .contactSiteMap {
-    margin: 0em 0.5em 1em 0.5em;
-    border-radius: 0em 0em 1em 1em;
+    border-radius: 0em 1em 1em 0em;
     display: inline-table;
 }
 
