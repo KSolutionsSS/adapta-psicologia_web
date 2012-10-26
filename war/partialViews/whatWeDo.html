@@ -16,34 +16,37 @@
 		<!--in active-->
 		{{#sections}}
 			<section class="tab-pane fade whatWeDo" id="{{tabId}}">
-				<h3>{{title}}</h3>
+
+				{{#sections}}
+					<h3>{{title}}</h3>
 				
-				<div class="content">
-					{{#paragraphs}}
-						{{#topImageUrl}}
-							<img src="{{topImageUrl}}"/>
-						{{/topImageUrl}}
+					<div class="content">
+						{{#paragraphs}}
+							{{#topImageUrl}}
+								<img src="{{topImageUrl}}"/>
+							{{/topImageUrl}}
 						
-						{{#subtitle}}
-							<h4>{{subtitle}}</h4>
-						{{/subtitle}}
+							{{#subtitle}}
+								<h4>{{subtitle}}</h4>
+							{{/subtitle}}
 						
-						<p>{{text}}</p>
-					{{/paragraphs}}
+							<p>{{text}}</p>
+						{{/paragraphs}}
 					
-					{{#lists}}
-						<div>
-							<h4>{{title}}</h4>
-							<ul>
-								{{#items}}
-									<li>{{.}}</li>
-								{{/items}}
-							</ul>
-						</div>
-					{{/lists}}	
-				</div>
-				
-				<br/>
+						{{#lists}}
+							<div>
+								<h4>{{title}}</h4>
+								<ul>
+									{{#items}}
+										<li>{{.}}</li>
+									{{/items}}
+								</ul>
+							</div>
+						{{/lists}}	
+					</div>
+
+					<br/>
+				{{/sections}}
 			</section>
 		{{/sections}}
 	</div>
