@@ -28,7 +28,7 @@
 			]
 		}, {
 			"tabId":"psico",
-			"tabLabel":"Psicolog&iacute;a en niños y adolescentes",
+			"tabLabel":"Niños y adolescentes",
 			"sections": [
 			    {
 			        "title": "&Aacute;rea de psicolog&iacute;a",
@@ -56,13 +56,7 @@
 								, "Trastornos del estado de &aacute;nimo"]
 						}
 					]
-			    }
-			]
-		}, {
-			"tabId":"psicopeda",
-			"tabLabel":"Psicopedagog&iacute;a en niños y adolescentes",
-			"sections": [
-			    {
+			    }, {
 					"title": "&Aacute;rea de psicopedagog&iacute;a (reeducaciones psicopedag&oacute;gicas)",
 					"paragraphs": [
 						{
@@ -92,10 +86,10 @@
 			]
 		}, {
 			"tabId":"training",
-			"tabLabel":"Entrenamiento a padres",
+			"tabLabel":"Grupo de padres",
 			"sections": [
 			    {
-					"title": "Entrenamiento a padres",
+					"title": "Grupo de padres",
 					"paragraphs": [
 						{
 							"topImageUrl": "images/queHacemos-entrenamientoAPadres.jpg",
@@ -127,7 +121,7 @@
 			]
 		}, {
 			"tabId":"mindfulness",
-			"tabLabel":"Grupos de mindfulness para adultos",
+			"tabLabel":"Grupos de mindfulness",
 			"sections": [
 			    {
 					"title": "Grupos de mindfulness para adultos",
