@@ -2,15 +2,40 @@
 	"title": "¿Qu&eacute; hacemos?",
 	"sections": [
 		{
+			"tabId":"adults",
+			"tabLabel":"Adultos",
+			"sections": [
+			    {
+			        "title": "Adultos",
+					"paragraphs": [
+						{
+							"text": "Estamos especializados en la asistencia y tratamiento psicológicos para adultos. A lo largo de esta etapa pueden existir múltiples factores que influyen en nuestro estado emocional y que pueden llegar a alterar nuestro equilibrio interno haciendo que surjan dificultades que interfieren significativamente en nuestro desempeño cotidiano. Es por eso que Adapta Psicología ofrece apoyo a estas personas que necesitan un espacio para analizar con calma y en profundidad sus propios aspectos vitales, promoviendo una dinámica de mejora y adaptación al contexto."
+						}
+					],
+					"lists": [
+						{
+							"title": "Los tipos de problemática que con más frecuencia abordamos entre la población adulta en Adapta Psicología se suelen definir por las siguientes etiquetas diagnósticas:",
+							"items": ["Trastornos del estado de ánimo (depresión, trastorno bipolar, ciclotimia)."
+								, "Ansiedad ( fobias, ataques de pánico, agorafobia, ansiedad generalizada, trastorno obsesivo-compulsivo, hipocondría)."
+								, "Estr&eacute;s."
+								, "Trastornos de la conducta alimentaria (anorexia, bulimia, obesidad, sobreingesta compulsiva)."
+								, "Trastornos de personalidad."
+								, "Trastornos del sueño."
+								, "Trastornos relacionados con sustancias (abuso y dependencia)."]
+						}
+					]
+			    }
+			]
+		}, {
 			"tabId":"psico",
-			"tabLabel":"Psicolog&iacute;a",
+			"tabLabel":"Psicolog&iacute;a en niños y adolescentes",
 			"sections": [
 			    {
 			        "title": "&Aacute;rea de psicolog&iacute;a",
 					"paragraphs": [
 						{
 							"topImageUrl": "images/queHacemos-areaPsicologica.jpg",
-							"text": "Evaluaci&oacute;n, diagn&oacute;stico y tratamiento de dificultades emocionales o psicopatol&oacute;gicas desde una perspectiva cognitivo-conductual basada en la evidencia cient&iacute;fica."
+							"text": "Evaluaci&oacute;n, diagn&oacute;stico y tratamiento de dificultades emocionales o psicopatol&oacute;gicas en niños y adolescentes bas&aacute;ndonos en una perspectiva cognitiva-conductual."
 						}, {
 							"text": "El enfoque cognitivo-conductual investiga c&oacute;mo aprendemos, tanto las conductas deseables, como perjudiciales. El qu&eacute; aprendemos, es algo que depende de la constituci&oacute;n gen&eacute;tica y, fundamentalmente, de las experiencias de vida particulares e intransferibles de cada individuo. Este enfoque posee una amplia variedad de estrategias y t&eacute;cnicas efectivas, que han hecho que se extienda a un amplio rango de trastornos psicol&oacute;gicos."
 						}, {
@@ -31,27 +56,11 @@
 								, "Trastornos del estado de &aacute;nimo"]
 						}
 					]
-			    },{
-			        "title": "&Aacute;rea de psicolog&iacute;a orientada a adultos",
-					"paragraphs": [
-						{
-							"topImageUrl": "images/baldozas.png",
-							"text": "Evaluaci&oacute;n, diagn&oacute;stico y tratamiento de dificultades emocionales o psicopatol&oacute;gicas desde una perspectiva cognitivo-conductual basada en la evidencia cient&iacute;fica."
-						}
-					],
-					"lists": [
-						{
-							"title": "Las patolog&iacute;as que abordamos son:",
-							"items": ["TDAH"
-								, "Trastornos del aprendizaje"
-								, "Trastornos del estado de &aacute;nimo"]
-						}
-					]
 			    }
 			]
 		}, {
 			"tabId":"psicopeda",
-			"tabLabel":"Psicopedagog&iacute;a",
+			"tabLabel":"Psicopedagog&iacute;a en niños y adolescentes",
 			"sections": [
 			    {
 					"title": "&Aacute;rea de psicopedagog&iacute;a (reeducaciones psicopedag&oacute;gicas)",
@@ -112,6 +121,38 @@
 								, "Definir reglas y l&iacute;mites claros."
 								, "Aumentar la organizaci&oacute;n de la casa y la estructura del horario."
 								, "Establecer rutinas estables y predecibles."]
+						}
+					]
+				}
+			]
+		}, {
+			"tabId":"mindfulness",
+			"tabLabel":"Grupos de mindfulness para adultos",
+			"sections": [
+			    {
+					"title": "Grupos de mindfulness para adultos",
+					"paragraphs": [
+						{
+							"text": "El término “Mindfulness” es la traducción al inglés de la palabra sati en lengua pali, que significa conciencia, atención y recuerdo."
+						}, {
+							"text": "El Mindfulness (o Atención Plena) es una manera de relacionarse con toda experiencia que puede ayudar a reducir el sufrimiento y preparar el terreno para una transformación personal positiva. Es un proceso psicológico central que intenta alterar la manera como solemos responder a las dificultades inherentes de la vida."
+						}, {
+							"text": "Así pues el Mindfulness es una técnica de meditación que promueve el desarrollo de habilidades como: la empatía, la paciencia, la aceptación y la atención sin juicio."
+						}, {
+							"text": "Algunos de los beneficios que se obtienen con la práctica periódica de esta técnica son: aumento de la concentración, reducción de automatismos, aceptación de la realidad, disminuir angustia y la reducción de impulsividad."
+						}, {
+							"text": "Adapta Psicología organiza una vez por semana grupos para la práctica de esta técnica. Apúntate y mejora en calidad de vida."
+						}
+					],
+					"lists": [
+						{
+							"title": "Algunos de los objetivos de este programa son:",
+							"items": ["Dar informaci&oacute;n sobre el trastorno."
+								, "Enseñar t&eacute;cnicas concretas para modificar la conducta de los hijos."
+								, "Aumentar la autoridad y competencia de los padres."
+								, "Mejorar la autorregulaci&oacute;n de las habilidades parentales."
+								, "Establecimiento de l&iacute;mites claros y coherentes."
+								, "Mejorar la relaci&oacute;n paterno-filial."]
 						}
 					]
 				}
