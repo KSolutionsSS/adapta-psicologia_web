@@ -3,9 +3,10 @@
 	"menu": {
 		"item0": "Inicio",
 		"item1": "¿Qu&eacute; hacemos?",
-		"item11": "Psicolog&iacute;a",
-		"item12": "Psicopedagog&iacute;a",
+		"item11": "Adultos",
+		"item12": "Niños y adolescentes",
 		"item13": "Entrenamiento a padres",
+		"item14": "Grupo de mindfulness",
 		"item2": "Acerca del psic&oacute;logo",
 		"item3": "Contacto"
 	},
