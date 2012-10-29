@@ -1,17 +1,19 @@
 <script id="aboutTemplate" type="text/html">
 	<h2>{{title}}</h2>
 
-	<div class="twoColumns">
-		<div id="leftColumn">
-			<img src="images/PBG.jpg" class="imgBorder"/>
-		</div>
-		<div id="rightColumn">
-			<ul>
-				{{#items}}
-					<li>{{{.}}}</li><br/>
-				{{/items}}
-			</ul>
-		</div>
-	</div>
+	{{#members}}
+		<div class="twoColumns">
+			<div id="leftColumn">
+				<img src="{{imageUrl}}" class="imgBorder"/>
+			</div>
+			<div id="rightColumn">
+				<ul>
+					{{#items}}
+						<li>{{{.}}}</li><br/>
+					{{/items}}
+				</ul>
+			</div>
+		</div>		
+	{{/members}}
 
 </script>
