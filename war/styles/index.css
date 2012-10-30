@@ -16,6 +16,7 @@ header {
     max-width: 1024px;
     min-width: 680px;
     margin: 0px auto;
+    position: relative;
 }
 
 h2,h3 {
@@ -24,14 +25,19 @@ h2,h3 {
 }
 
 nav {
+    box-shadow: 0.1em 0.1em 0.1em #797979;
     background-color: rgb(173, 255, 169);
     border-radius: 7em 7em 1em 1em;
     padding: 0.5em 3em;
     text-align: center;
-    display: inline-table;
+    display: inline;
     margin-top: 117px;
     margin-right: 1em;
     float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 nav a {
@@ -75,7 +81,10 @@ nav .dropdown-menu a {
 
 nav img {
     width: 25px;
+    height: 25px;
     margin-left: 28px;
+    display: block;
+    float: right;
 }
 
 p {
@@ -90,13 +99,16 @@ label {
  * Es el DIV que contiene al DIV content donde se coloca la info de cada página del sitio.
  */
 .container {
+    box-shadow: 0.1em 0.1em 0.1em #797979;
     max-width: 1024px;
     min-width: 655px;
-    background-color: rgba(223, 252, 255, 0.88);
+    background-color: rgba(223, 252, 255, 1);
     border-radius: 2em;
     padding: 1.7em 2em;
     margin: 0px auto;
     clear: both;
+    position: relative;
+    z-index: 2;
 }
 
 .container h2 {
