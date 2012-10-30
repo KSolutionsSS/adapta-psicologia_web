@@ -6,7 +6,7 @@
 			"tabLabel":"Adultos",
 			"sections": [
 			    {
-			        "title": "Adultos",
+			        "title": "",
 					"paragraphs": [
 						{
 							"text": "Estamos especializados en la asistencia y tratamiento psicológicos para adultos. A lo largo de esta etapa pueden existir múltiples factores que influyen en nuestro estado emocional y que pueden llegar a alterar nuestro equilibrio interno haciendo que surjan dificultades que interfieren significativamente en nuestro desempeño cotidiano. Es por eso que Adapta Psicología ofrece apoyo a estas personas que necesitan un espacio para analizar con calma y en profundidad sus propios aspectos vitales, promoviendo una dinámica de mejora y adaptación al contexto."
@@ -89,7 +89,7 @@
 			"tabLabel":"Grupo de padres",
 			"sections": [
 			    {
-					"title": "Grupo de padres",
+					"title": "",
 					"paragraphs": [
 						{
 							"topImageUrl": "images/queHacemos-entrenamientoAPadres.jpg",
@@ -101,20 +101,24 @@
 					"lists": [
 						{
 							"title": "Algunos de los objetivos de este programa son:",
-							"items": ["Dar informaci&oacute;n sobre el trastorno."
+							"items": [
+							      "Dar informaci&oacute;n sobre el trastorno."
 								, "Enseñar t&eacute;cnicas concretas para modificar la conducta de los hijos."
 								, "Aumentar la autoridad y competencia de los padres."
 								, "Mejorar la autorregulaci&oacute;n de las habilidades parentales."
 								, "Establecimiento de l&iacute;mites claros y coherentes."
-								, "Mejorar la relaci&oacute;n paterno-filial."]
+								, "Mejorar la relaci&oacute;n paterno-filial."
+							]
 						}
 						, {
 							"title": "Algunas de las pautas y t&eacute;cnicas que se trabajan en sesi&oacute;n son:",
-							"items": ["Incrementar el reforzamiento positivo."
+							"items": [
+							      "Incrementar el reforzamiento positivo."
 								, "Econom&iacute;a de fichas."
 								, "Definir reglas y l&iacute;mites claros."
 								, "Aumentar la organizaci&oacute;n de la casa y la estructura del horario."
-								, "Establecer rutinas estables y predecibles."]
+								, "Establecer rutinas estables y predecibles."
+							]
 						}
 					]
 				}
@@ -124,11 +128,11 @@
 			"tabLabel":"Grupos de mindfulness",
 			"sections": [
 			    {
-					"title": "Grupos de mindfulness para adultos",
+					"title": "",
 					"paragraphs": [
 						{
 							"topImageUrl": "images/queHacemos-mindfulness.jpg",
-							"text": "El término “Mindfulness” es la traducción al inglés de la palabra sati en lengua pali, que significa conciencia, atención y recuerdo."
+							"text": "El término \"Mindfulness\" es la traducción al inglés de la palabra sati en lengua pali, que significa conciencia, atención y recuerdo."
 						}, {
 							"text": "El Mindfulness (o Atención Plena) es una manera de relacionarse con toda experiencia que puede ayudar a reducir el sufrimiento y preparar el terreno para una transformación personal positiva. Es un proceso psicológico central que intenta alterar la manera como solemos responder a las dificultades inherentes de la vida."
 						}, {
@@ -137,17 +141,6 @@
 							"text": "Algunos de los beneficios que se obtienen con la práctica periódica de esta técnica son: aumento de la concentración, reducción de automatismos, aceptación de la realidad, disminuir angustia y la reducción de impulsividad."
 						}, {
 							"text": "Adapta Psicología organiza una vez por semana grupos para la práctica de esta técnica. Apúntate y mejora en calidad de vida."
-						}
-					],
-					"lists": [
-						{
-							"title": "Algunos de los objetivos de este programa son:",
-							"items": ["Dar informaci&oacute;n sobre el trastorno."
-								, "Enseñar t&eacute;cnicas concretas para modificar la conducta de los hijos."
-								, "Aumentar la autoridad y competencia de los padres."
-								, "Mejorar la autorregulaci&oacute;n de las habilidades parentales."
-								, "Establecimiento de l&iacute;mites claros y coherentes."
-								, "Mejorar la relaci&oacute;n paterno-filial."]
 						}
 					]
 				}

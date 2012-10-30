@@ -20,11 +20,11 @@ views.whatWeDo = function() {
 			sectionToShow = $('#sectionsTab li:eq(1) a');
 			break;
 		case 13:
-		        sectionToShow = $('#sectionsTab li:eq(3) a');
+		    sectionToShow = $('#sectionsTab li:eq(2) a');
 			break;
 		case 14:
-                        sectionToShow = $('#sectionsTab a:last');
-                        break;
+            sectionToShow = $('#sectionsTab a:last');
+            break;
 		default:
 			sectionToShow = $('#sectionsTab a:first');
 			break;
