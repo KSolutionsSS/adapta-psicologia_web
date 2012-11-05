@@ -10,19 +10,36 @@
 					"paragraphs": [
 						{
 							"topImageUrl": "images/queHacemos-adultos.jpg",
-							"text": "Estamos especializados en la asistencia y tratamiento psicológicos para adultos. A lo largo de esta etapa pueden existir múltiples factores que influyen en nuestro estado emocional y que pueden llegar a alterar nuestro equilibrio interno haciendo que surjan dificultades que interfieren significativamente en nuestro desempeño cotidiano. Es por eso que Adapta Psicología ofrece apoyo a estas personas que necesitan un espacio para analizar con calma y en profundidad sus propios aspectos vitales, promoviendo una dinámica de mejora y adaptación al contexto."
+							"text": "En Adapta Psicología estamos especializados en la asistencia y tratamiento psicológico de adultos. A lo largo de esta etapa surgen múltiples factores que influyen en nuestro estado emocional y que pueden llegar a alterar nuestro equilibrio interno, haciendo que emerjan dificultades que pueden interferir significativamente en nuestra vida cotidiana. Es por eso que nos ponemos al servicio de toda persona que necesite un espacio para analizar con calma y profundidad sus propios aspectos vitales, promoviendo una dinámica de mejora y crecimiento que le aporte bienestar y seguridad. Se trata de un proceso que en psicología conocemos como empoderamiento (Zimmerman, 2000), donde la persona percibe un mayor control sobre su vida puesto que aumenta su capacidad para tomar decisiones en función de sus necesidades."
+						}, {
+							"text": "En base a nuestra formación y experiencia trabajamos con personas con trastornos o malestares englobados dentro del ámbito de la Psicología Clínica, y también realizamos intervenciones en el marco de la Psicología de la Salud. ¿Qué quiere decir esto? Cuando hablamos de Psicología Clínica nos referimos al tratamiento de malestares psicológicos significativos, como por ejemplo un duelo o un trastorno del estado de ánimo. En Psicología de la Salud trabajamos los aspectos psicológicos que se ponen en juego en enfermedades físicas con un impacto significativo en nuestro día a día, ya sea por su gravedad o cronicidad."
+						}, {
+							"text": "Los tipos de malestares que nos encontramos con más frecuencia en la etapa adulta pueden agruparse en la siguiente clasificación:"
 						}
 					],
 					"lists": [
 						{
-							"title": "Los tipos de problemática que con más frecuencia abordamos entre la población adulta en Adapta Psicología se suelen definir por las siguientes etiquetas diagnósticas:",
-							"items": ["Trastornos del estado de ánimo (depresión, trastorno bipolar, ciclotimia)."
-								, "Ansiedad ( fobias, ataques de pánico, agorafobia, ansiedad generalizada, trastorno obsesivo-compulsivo, hipocondría)."
-								, "Estr&eacute;s."
-								, "Trastornos de la conducta alimentaria (anorexia, bulimia, obesidad, sobreingesta compulsiva)."
-								, "Trastornos de personalidad."
-								, "Trastornos del sueño."
-								, "Trastornos relacionados con sustancias (abuso y dependencia)."]
+							"title": "Ámbito Psicología Clínica:",
+							"items": [
+						          "Trastornos del Estado de Ánimo."
+							      , "Trastornos Adaptativos."
+							      , "Trastornos de Ansiedad (fobias, ataques de pánico, agorafobia, ansiedad generalizada, trastorno obsesivo-compulsivo)."
+							      , "Duelos."
+							      , "Trastornos Somatomorfos y Psicosomáticos."
+							      , "Trastornos de la Conducta Alimentaria (anorexia nerviosa, bulimia nerviosa, sobreingesta compulsiva)."
+							      , "Trastornos de Personalidad."
+							      , "Trastornos del Sueño."
+							      , "Trastornos del Control de los Impulsos (tricotilomania, onicofagia)."]
+						},{
+							"title": "Ámbito Psicología de la Salud, Intervención psicológica en:",
+							"items": [
+							      "Síndrome de Fibromialgia y Fatiga Crónica."
+							      , "Enfermedades infecciosas (VIH, Sífilis)."
+							      , "Alteraciones dermatológicas (psoriasis, dermatitis atópica, prurito)."
+							      , "Enfermedades Endocrinas (Obesidad mòrbida, diabetes mellitus)."
+							      , "Cáncer."
+							      , "Asma."
+							      , "Alteraciones Cardiovasculares."]
 						}
 					]
 			    }
