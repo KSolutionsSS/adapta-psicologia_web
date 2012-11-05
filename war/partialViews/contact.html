@@ -6,9 +6,15 @@
 	<div id="contactInfo" class="twoColumns">
 		<div id="leftColumn">
 			<ul>
-				{{#fields}}
-					<li><dt><label>{{{label}}}</label></dt><dd>{{{value}}}</dd></li>
-				{{/fields}}
+				{{#members}}
+					<li>
+						<dt>{{{label}}}</dt>
+						{{#fields}}
+							<dd>{{{value}}}</dd>
+						{{/fields}}
+					</li>
+					<br/>
+				{{/members}}
 				<br/>
 				<li>{{note}}</li>
 			</ul>
