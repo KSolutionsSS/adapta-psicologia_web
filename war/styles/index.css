@@ -218,6 +218,10 @@ label {
     color: blue;
 }
 
+.transitLine-darkBlue {
+    color: rgb(0, 0, 209);
+}
+
 /* ================================================================= */
 .contactSites {
     width: 91.5%;

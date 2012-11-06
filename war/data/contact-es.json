@@ -75,7 +75,7 @@
 				"transitLines": [
 					{
 						"label": "Metro:",
-						"value": "Sagrada Familia (L5 y L2), Monumental (L2)"
+						"value": "Sagrada Familia (<span class=\"transitLine-darkBlue\">L5</span> y <span class=\"transitLine-violet\">L2</span>), Monumental (<span class=\"transitLine-violet\">L2</span>)"
 					}, {
 						"label": "Bus:",
 						"value": "10, 33, 34, 43, 44, 50, 51, 62"
