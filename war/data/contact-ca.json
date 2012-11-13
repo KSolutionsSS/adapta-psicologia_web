@@ -27,113 +27,114 @@
        }
 	],
 	"note": "Horari d’atenció a convenir.",
-	"sites": [
-		{
-			"city": "Barcelona",
-			"cityImageUrl": "barcelona-logo-250px.jpg",
-			"fields": [
-				{
-					"label": "Adreça:",
-					"value": "C/Gran de Gr&agrave;cia 93, 4º 2ª. 08012 Barcelona."
-				}, {
-					"label": "Dies d’atenci&oacute;:",
-					"value": "Dilluns, Dimecres i Divendres."
-				}
-			],
-			"location": {
-				"label": "Com arribar?",
-				"transitLines": [
-					{
-						"label": "L&iacute;nies d’FGC:",
-						"value": "<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>"
-					}, {
-						"label": "Metro:",
-						"value": "<span class=\"transitLine-darkGreen\">L3</span>"
-					}, {
-						"label": "Bus:",
-						"value": "22, 24, 28, 87, 114"
+	"cities": [
+	    {
+		    "name": "Barcelona",
+		    "cityImageUrl": "barcelona-logo-250px.jpg",
+		    "offices":[
+		        {
+					"fields": [
+						{
+							"label": "Adreça:",
+							"value": "C/Gran de Gr&agrave;cia 93, 4º 2ª. 08012 Barcelona."
+						}, {
+							"label": "Dies d’atenci&oacute;:",
+							"value": "Dilluns, Dimecres i Divendres."
+						}
+					],
+					"location": {
+						"label": "Com arribar?",
+						"transitLines": [
+							{
+								"label": "L&iacute;nies d’FGC:",
+								"value": "<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>"
+							}, {
+								"label": "Metro:",
+								"value": "<span class=\"transitLine-darkGreen\">L3</span>"
+							}, {
+								"label": "Bus:",
+								"value": "22, 24, 28, 87, 114"
+							}
+						]
+					},
+					"separator": "dummy"
+		        },{
+			        "fields": [
+						{
+							"label": "Adreça:",
+							"value": "Carrer Aragó 447-451, 1º 2ª. 08013 Barcelona."
+						}
+					],
+					"location": {
+						"label": "Com arribar?",
+						"transitLines": [
+							{
+								"label": "Metro:",
+								"value": "Sagrada Família (<span class=\"transitLine-darkBlue\">L5</span> i <span class=\"transitLine-violet\">L2</span>), Monumental (<span class=\"transitLine-violet\">L2</span>)"
+							}, {
+								"label": "Bus:",
+								"value": "10, 33, 34, 43, 44, 50, 51, 62"
+							}
+						]
 					}
-				],
-				"map": {
-					"label": "La nostra consulta est&agrave; ubicada a:",
-					"labelExpand": "Veure mapa m&eacute;s gran",
-					"urlIframe": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+Gran+de+Gr%C3%A0cia,+93,+Barcelona,+espa%C3%B1a&amp;aq=t&amp;sll=41.728897,1.834406&amp;sspn=0.005725,0.012757&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+Gran+de+Gr%C3%A0cia,+93,+08012+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.401906,2.153728&amp;spn=0.005633,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed",
-					"urlLink": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+Gran+de+Gr%C3%A0cia,+93,+Barcelona,+espa%C3%B1a&amp;aq=t&amp;sll=41.728897,1.834406&amp;sspn=0.005725,0.012757&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+Gran+de+Gr%C3%A0cia,+93,+08012+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.401906,2.153728&amp;spn=0.005633,0.00912&amp;z=16&amp;iwloc=A"
-				}
+		        }
+	        ],
+	        "map": {
+				"label": "La nostra consulta est&agrave; ubicada a:",
+				"labelExpand": "Veure mapa m&eacute;s gran",
+				"urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.402566,2.166109&amp;spn=0.022533,0.036478&amp;z=14&amp;output=embed",
+				"urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.402566,2.166109&amp;spn=0.022533,0.036478&amp;z=14&amp;source=embed"
 			}
-		}, {
-			"city": "Barcelona",
-			"cityImageUrl": "barcelona-logo-250px.jpg",
-			"fields": [
-				{
-					"label": "Adreça:",
-					"value": "Carrer Aragó 447-451, 1º 2ª. 08013 Barcelona."
-				}
-			],
-			"location": {
-				"label": "Com arribar?",
-				"transitLines": [
-					{
-						"label": "Metro:",
-						"value": "Sagrada Família (<span class=\"transitLine-darkBlue\">L5</span> i <span class=\"transitLine-violet\">L2</span>), Monumental (<span class=\"transitLine-violet\">L2</span>)"
-					}, {
-						"label": "Bus:",
-						"value": "10, 33, 34, 43, 44, 50, 51, 62"
-					}
-				],
-				"map": {
-					"label": "La consulta està ubicada al districte de L’Eixample, barri de la Sagrada Família:",
-					"labelExpand": "Veure mapa m&eacute;s gran",
-					"urlIframe": "https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Carrer+d'Arag%C3%B3,+447,+Barcelona,+Spain&amp;aq=1&amp;oq=Carrer+Arag%C3%B3+447,&amp;sll=37.0625,-95.677068&amp;sspn=49.357162,103.183594&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+d'Arag%C3%B3,+447,+08013+Barcelona,+Catalunya,+Spain&amp;ll=41.40358,2.177546&amp;spn=0.005633,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed",
-					"urlLink": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+d'Arag%C3%B3,+447,+Barcelona,+Spain&amp;aq=1&amp;oq=Carrer+Arag%C3%B3+447,&amp;sll=37.0625,-95.677068&amp;sspn=49.357162,103.183594&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+d'Arag%C3%B3,+447,+08013+Barcelona,+Catalunya,+Spain&amp;ll=41.40358,2.177546&amp;spn=0.005633,0.00912&amp;z=16&amp;iwloc=A"
-				}
-			}
-		}, {
-			"city": "Manresa",
+	    },{
+	        "name": "Manresa",
 			"cityImageUrl": "manresa-logo-250px.jpg",
-			"fields": [
-				{
-					"label": "Adreça:",
-					"value": "C/moss&egrave;n Jacint Verdaguer 38, 1º 1ª. 08241 Manresa."
-				}, {
-					"label": "Dies d’atenci&oacute;:",
-					"value": "Dimarts i Dijous."
-				}, {
-					"label": "Tel&egrave;fon:",
-					"value": "93 873-1763"
-				}
-			],
-			"location": {
-				"map": {
-					"label": "La nostra consulta est&agrave; ubicada a:",
-					"labelExpand": "Veure mapa m&eacute;s gran",
-					"urlIframe": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+de+Moss%C3%A8n+Jacint+Verdaguer,+38,+Manresa,+Espa%C3%B1a&amp;aq=&amp;sll=41.597567,2.170245&amp;sspn=0.734281,1.632843&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+de+Moss%C3%A8n+Jacint+Verdaguer,+38,+08241+Manresa,+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.730762,1.832356&amp;spn=0.005605,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed",
-					"urlLink": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+de+Moss%C3%A8n+Jacint+Verdaguer,+38,+Manresa,+Espa%C3%B1a&amp;aq=&amp;sll=41.597567,2.170245&amp;sspn=0.734281,1.632843&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+de+Moss%C3%A8n+Jacint+Verdaguer,+38,+08241+Manresa,+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.730762,1.832356&amp;spn=0.005605,0.00912&amp;z=16&amp;iwloc=A"
-				}
+		    "offices":[
+		        {
+				    "fields": [
+						{
+							"label": "Adreça:",
+							"value": "C/moss&egrave;n Jacint Verdaguer 38, 1º 1ª. 08241 Manresa."
+						}, {
+							"label": "Dies d’atenci&oacute;:",
+							"value": "Dimarts i Dijous."
+						}, {
+							"label": "Tel&egrave;fon:",
+							"value": "93 873-1763"
+						}
+					]
+		        }
+		    ],
+		    "map": {
+				"label": "La nostra consulta est&agrave; ubicada a:",
+				"labelExpand": "Veure mapa m&eacute;s gran",
+				"urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.729834,1.832507&amp;spn=0.005605,0.00912&amp;z=16&amp;output=embed",
+				"urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.729834,1.832507&amp;spn=0.005605,0.00912&amp;z=16&amp;source=embed"
 			}
-		}, {
-			"city": "Granollers",
-			"fields": [
-				{
-					"label": "Adreça:",
-					"value": "C/ Condestable de Portugal, 43-45, 3º. 08402 Granollers."
-				}, {
-					"label": "Dies d’atenci&oacute;:",
-					"value": "Dilluns, Dimecres i Divendres."
-				}, {
-					"label": "Tel&egrave;fon:",
-					"value": "93 860-0333"
-				}
+	    },{
+	        "name": "Granollers",
+			"offices":[
+			    {
+			        "fields": [
+						{
+							"label": "Adreça:",
+							"value": "C/ Condestable de Portugal, 43-45, 3º. 08402 Granollers."
+						}, {
+							"label": "Dies d’atenci&oacute;:",
+							"value": "Dilluns, Dimecres i Divendres."
+						}, {
+							"label": "Tel&egrave;fon:",
+							"value": "93 860-0333"
+						}
+					]
+			    }
 			],
-			"location": {
-				"map": {
-					"label": "La nostra consulta est&agrave; ubicada a:",
-					"labelExpand": "Veure mapa m&eacute;s gran",
-					"urlIframe": "https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Carrer+del+Condestable+de+Portugal,+43-45,+Granollers,+Espanya&amp;aq=&amp;sll=41.881831,1.450195&amp;sspn=2.924043,6.448975&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+del+Condestable+de+Portugal,+43,+08402+Granollers,+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.606169,2.290478&amp;spn=0.005616,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed",
-					"urlLink": "https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Carrer+del+Condestable+de+Portugal,+43-45,+Granollers,+Espanya&amp;aq=&amp;sll=41.881831,1.450195&amp;sspn=2.924043,6.448975&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+del+Condestable+de+Portugal,+43,+08402+Granollers,+Barcelona,+Catalunya,+Spain&amp;t=m&amp;ll=41.606169,2.290478&amp;spn=0.005616,0.00912&amp;z=16&amp;iwloc=A"
-				}
+			"map": {
+				"label": "La nostra consulta est&agrave; ubicada a:",
+				"labelExpand": "Veure mapa m&eacute;s gran",
+				"urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.605367,2.290435&amp;spn=0.005616,0.00912&amp;z=16&amp;output=embed",
+				"urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.605367,2.290435&amp;spn=0.005616,0.00912&amp;z=16&amp;source=embed"
 			}
-		}
+	    }
 	],
 	"socialNetworks": [
 		{
