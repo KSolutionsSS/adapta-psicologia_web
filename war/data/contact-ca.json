@@ -46,7 +46,7 @@
 						"label": "Com arribar?",
 						"transitLines": [
 							{
-								"label": "L&iacute;nies d’FGC:",
+								"label": "L&iacute;nies de FGC:",
 								"value": "<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>"
 							}, {
 								"label": "Metro:",
