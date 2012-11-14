@@ -50,7 +50,7 @@
 								"value": "<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>"
 							}, {
 								"label": "Metro:",
-								"value": "<span class=\"transitLine-darkGreen\">L3</span>"
+								"value": "Fontana (<span class=\"transitLine-darkGreen\">L3</span>)"
 							}, {
 								"label": "Bus:",
 								"value": "22, 24, 28, 87, 114"
