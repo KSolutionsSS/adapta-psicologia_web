@@ -19,7 +19,8 @@ views.header = function() {
 				site.language = "es";
 				break;
 			}
-			site.load();
+
+			site.load(site.currentPage);
 		});
 	};
 
