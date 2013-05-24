@@ -5,6 +5,10 @@
         "La nostra prioritat és el benestar de les persones que venen a la nostra consulta, i és per això que utilitzem totes les eines disponibles per aconseguir aquest objectiu.",
         "Oferim tractament individual, de parella, familiar, grupal, i entrenament a pares."
     ],
+    "links":{
+        "label":"Esdeveniments",
+        "link":"https://drive.google.com/folderview?id=0B8MDl4gIz8YUVS1NS0xPUkJxdFU&usp=sharing"
+    },
     "footerText": {
         "text": "Si la teva única eina és un martell, tendeixes a tractar cada problema com si fos un clau",
         "author": "Abraham Maslow"

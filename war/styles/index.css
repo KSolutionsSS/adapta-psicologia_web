@@ -24,6 +24,14 @@ h2,h3 {
     text-shadow: 0.1em 0.1em 0.4em #333;
 }
 
+h3 a{
+    color: black;
+ transition: color 0.75s;   
+}
+h3 a:HOVER {
+    color: white;
+}
+
 nav {
     box-shadow: 0.1em 0.1em 0.1em #797979;
     background-color: rgb(173, 255, 169);

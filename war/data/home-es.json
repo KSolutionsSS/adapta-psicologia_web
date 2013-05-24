@@ -5,6 +5,10 @@
         "Nuestra prioridad es el bienestar de las personas que acuden a nuestra consulta, y utilizamos todas las herramientas disponibles para conseguir este objetivo.",
         "Ofrecemos tratamiento individual, de pareja, familiar, grupal, y entrenamiento a padres."
     ],
+    "links":{
+        "label":"Eventos",
+        "link":"https://drive.google.com/folderview?id=0B8MDl4gIz8YUb1IxSnlKTzhJYzg&usp=sharing"
+    },
     "footerText": {
         "text": "Si tu única herramienta es un martillo, tiendes a tratar cada problema como si fuera un clavo",
         "author": "Abraham Maslow"
