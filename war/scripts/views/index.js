@@ -70,6 +70,9 @@ views.index = (function() {
         case 3:
             site.render(views.contact(), parentSelector);
             break;
+        case 4:
+            site.render(views.events(), parentSelector);
+            break;
         }
 
         if (sectionId > 10) {
