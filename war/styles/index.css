@@ -1,6 +1,7 @@
 /* ================================================================= */
 /* ============================INDEX.HTML=========================== */
 /* ================================================================= */
+
 body { /*   Para cambiar el font del sitio tendría que cambiar acá, 
         y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
@@ -135,7 +136,6 @@ label {
 .footerText img {
     width: 2em;
     margin-right: 0.5em;
-    margin-top: -0.5em;
     vertical-align: middle;
 }
 
@@ -419,4 +419,8 @@ label {
     color: black;
     border: 1px solid white;
     background-color: rgba(195, 250, 255, 0.3);
+}
+
+.twitter-follow-button{
+    vertical-align: middle;
 }

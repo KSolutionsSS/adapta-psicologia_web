@@ -37,6 +37,12 @@
                     "value": " | "
                 },
                 {
+                    "value": "<a href=\"https://twitter.com/adaptapsico\" class=\"twitter-follow-button\" data-lang=\"es\" data-show-count=\"false\">Segueix-nos @adaptapsico</a>"
+                },
+                {
+                    "value": " | "
+                },
+                {
                     "value": "<a href=\"https://www.facebook.com/AdaptaPsicologia\" target=\"_blank\"><img src=\"images/facebook.png\" />Visita'ns a Facebook!</a>"
                 }
             ]
