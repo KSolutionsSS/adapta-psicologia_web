@@ -191,6 +191,8 @@ label {
 #contactInfo #rightColumn img {
     margin-right: 1%;
     vertical-align: middle;
+    width: 46px;
+    border-radius: 10px;
 }
 
 /* ================================================================= */
