@@ -1,11 +1,13 @@
 {
 	"title": "Esdeveniments",
+	"links":{
+	        "label":"Mira el programa aquí",
+	        "link":"https://drive.google.com/folderview?id=0B8MDl4gIz8YUVS1NS0xPUkJxdFU&usp=sharing"
+	    },
 	"timeline":{
-	    "googleSpreadSheetKey": "0AqAWn1xLDRvPdEE2TnFxNk1Qa2dSV3lHT2szUExjUVE"
-	        , "language":"ca"
+	    "googleSpreadSheetKey": "0AsMDl4gIz8YUdFY3WjRwSk1VaXhQSlBxWndjYW9ISnc"
+	    , "language":"ca"
 	    , "width":"100%"
-	        , "height":"560"
-	            
+	    , "height":"480"
 	}
-	
 }

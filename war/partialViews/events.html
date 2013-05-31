@@ -1,6 +1,8 @@
 <script id="eventsTemplate" type="text/html">
 	<h2>{{title}}</h2>
 
+	<h3><a href="{{links.link}}" target="_blank">{{links.label}}</a></h3>
+
 	<iframe
 		src='http://embed.verite.co/timeline/?source={{timeline.googleSpreadSheetKey}}&font=Bevan-PotanoSans&maptype=toner&lang={{timeline.language}}&start_at_end=true&height={{timeline.height}}'
 		width='{{timeline.width}}'
