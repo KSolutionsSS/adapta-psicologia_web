@@ -144,6 +144,10 @@
 			"label": "¡Visitanos en Facebook!",
 			"url": "https://www.facebook.com/AdaptaPsicologia",
 			"imageUrl": "facebook.png"
-		}
+		},{
+                    "label": "Seguinos en Twitter!",
+                    "url": "https://www.twitter.com/adaptapsico",
+                    "imageUrl": "twitter.png"
+            }
 	]
 }
