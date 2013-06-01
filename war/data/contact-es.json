@@ -141,11 +141,11 @@
 	],
 	"socialNetworks": [
 		{
-			"label": "¡Visitanos en Facebook!",
+			"label": "¡S&iacute;guenos en Facebook!",
 			"url": "https://www.facebook.com/AdaptaPsicologia",
 			"imageUrl": "facebook.png"
 		},{
-                    "label": "Seguinos en Twitter!",
+                    "label": "¡S&iacute;guenos en Twitter!",
                     "url": "https://www.twitter.com/adaptapsico",
                     "imageUrl": "twitter.png"
             }

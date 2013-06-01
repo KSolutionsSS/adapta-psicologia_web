@@ -131,6 +131,11 @@ label {
 
 .footerText a,.footerDesignerSignText a {
     color: black;
+    transition: color 0.75s
+}
+
+.footerText a:hover,.footerDesignerSignText a:hover {
+    color: #00C189;
 }
 
 .footerText img {
