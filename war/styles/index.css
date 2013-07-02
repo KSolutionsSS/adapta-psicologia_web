@@ -5,7 +5,7 @@
 body { /*   Para cambiar el font del sitio tendría que cambiar acá, 
         y el sitio al estar hecho con "em"s tendría que acomodarse correctamente.*/
     font-size: 0.8em;
-    background-image: url("../images/baldozas.png");
+/*     background-image: url("../images/baldozas.png"); */
     font-family: Arial, Georgia;
 }
 
@@ -110,7 +110,6 @@ label {
     box-shadow: 0.1em 0.1em 0.1em #797979;
     max-width: 1024px;
     min-width: 655px;
-    background-color: rgba(223, 252, 255, 1);
     border-radius: 2em;
     padding: 1.7em 2em;
     margin: 0px auto;
