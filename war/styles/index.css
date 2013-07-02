@@ -35,7 +35,7 @@ h3 a:HOVER {
 
 nav {
     box-shadow: 0.1em 0.1em 0.1em #797979;
-    background-color: rgb(173, 255, 169);
+    background-color: #00C189;
     border-radius: 7em 7em 1em 1em;
     padding: 0.5em 3em;
     text-align: center;
@@ -52,7 +52,7 @@ nav a {
     display: inline-block;
     padding: 0.5em 1em;
     margin: 0em 0.06em;
-    background-color: rgba(216, 255, 216, 0.87);
+    background-color: white;
     border-radius: 0.6em;
     color: rgb(114, 114, 114);
 
@@ -340,8 +340,7 @@ label {
  * Es para una especie de título que deba estar centrado y con sombra.
  */
 .centralText {
-    text-shadow: 0.1em 0.1em 0.9em black;
-    background-color: #ABFF9B;
+    background-color: #00C189;
     border-radius: 2em;
     padding: 0.5em 1em;
     margin: 1em auto;
