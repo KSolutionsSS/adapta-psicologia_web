@@ -247,7 +247,7 @@ label {
 .contactSites section {
     margin-top: 1em;
     border-radius: 1em 1em 1em 1em;
-    background-color: rgba(148, 255, 65, 0.24);
+    background-color: rgba(0, 0, 0, 0.03);
     display: inline-block;
         
 }
