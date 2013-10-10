@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="adaptaPsicologia:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/adaptaPsicologia_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="adaptaPsicologia" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="adaptaPsicologia/web/Web" />
+    </root>
+  </artifact>
+</component>
