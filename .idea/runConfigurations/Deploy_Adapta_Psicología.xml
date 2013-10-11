@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Deploy Adapta Psicología" type="google-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
+    <deployment type="artifact" name="adaptaPsicologia:war exploded" />
+    <RunnerSettings RunnerId="DeployToServer" />
+    <ConfigurationWrapper RunnerId="DeployToServer" />
+    <method>
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="adaptaPsicologia:war exploded" />
+      </option>
+    </method>
+  </configuration>
+</component>
