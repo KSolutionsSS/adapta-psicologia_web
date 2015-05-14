@@ -1,154 +1,169 @@
 {
-	"title": "Contacte",
-	"subTitle": "Informaci&oacute; de contacte:",
-	"members":[
-       {
-    	   "label":"Guillermo de Ciria",
-    	   "fields": [
-	      		{
-	      			"label": "Email:",
-	      			"value": "psicologia@guillermodeciria.com"
-	      		}, {
-	      			"label": "Tel&egrave;fon m&ograve;bil:",
-	      			"value": "647 51 10 86"
-	      		}
-    	   ]
-       }, {
-    	   "label":"Pablo A. Barrionuevo Grabinski",
-    	   "fields": [
-	      		{
-	      			"label": "Email:",
-	      			"value": "adapta@adaptapsicologia.com"
-	      		}, {
-	      			"label": "Tel&egrave;fon m&ograve;bil:",
-	      			"value": "628 83 85 64"
-	      		}
-    	   ]
-       }
-	],
-	"note": "Horari d’atenció a convenir.",
-	"cities": [
-	    {
-		    "name": "Barcelona",
-		    "cityImageUrl": "barcelona-logo-250px.jpg",
-		    "offices":[
-		        {
-					"fields": [
-						{
-							"label": "Adreça:",
-							"value": "C/Gran de Gr&agrave;cia 71, 2º 1ª. 08012 Barcelona."
-						}, {
-							"label": "Dies d’atenci&oacute;:",
-							"value": "Dilluns, Dimecres i Divendres."
-						}
-					],
-					"location": {
-						"label": "Com arribar?",
-						"transitLines": [
-							{
-								"label": "L&iacute;nies de FGC:",
-								"value": "Gràcia (<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>)"
-							}, {
-								"label": "Metro:",
-								"value": "Fontana (<span class=\"transitLine-darkGreen\">L3</span>)"
-							}, {
-								"label": "Bus:",
-								"value": "22, 24, 28, 87, 114"
-							}
-						]
-					},
-					"separator": "dummy"
-		        },{
-			        "fields": [
-						{
-							"label": "",
-							"value": "Districte de L'Eixample, Barri de la Sagrada Família."
-						}, {
-							"label": "Adreça:",
-							"value": "Carrer Aragó 447-451, 1º 2ª. 08013 Barcelona."
-						}
-					],
-					"location": {
-						"label": "Com arribar?",
-						"transitLines": [
-							{
-								"label": "Metro:",
-								"value": "Sagrada Família (<span class=\"transitLine-darkBlue\">L5</span> i <span class=\"transitLine-violet\">L2</span>), Monumental (<span class=\"transitLine-violet\">L2</span>)"
-							}, {
-								"label": "Bus:",
-								"value": "10, 33, 34, 43, 44, 50, 51, 62"
-							}
-						]
-					}
-		        }
-	        ],
-	        "map": {
-				"label": "La nostra consulta est&agrave; ubicada a:",
-				"labelExpand": "Veure mapa m&eacute;s gran",
-				"urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.402566,2.166109&amp;spn=0.022533,0.036478&amp;z=14&amp;output=embed",
-				"urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.402566,2.166109&amp;spn=0.022533,0.036478&amp;z=14&amp;source=embed"
-			}
-	    },{
-	        "name": "Manresa",
-			"cityImageUrl": "manresa-logo-250px.jpg",
-		    "offices":[
-		        {
-				    "fields": [
-						{
-							"label": "Adreça:",
-							"value": "C/moss&egrave;n Jacint Verdaguer 38, 1º 1ª. 08241 Manresa."
-						}, {
-							"label": "Dies d’atenci&oacute;:",
-							"value": "Dimecres i Divendres."
-						}, {
-							"label": "Tel&egrave;fon:",
-							"value": "93 873-1763"
-						}
-					]
-		        }
-		    ],
-		    "map": {
-				"label": "La nostra consulta est&agrave; ubicada a:",
-				"labelExpand": "Veure mapa m&eacute;s gran",
-				"urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.729834,1.832507&amp;spn=0.005605,0.00912&amp;z=16&amp;output=embed",
-				"urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.729834,1.832507&amp;spn=0.005605,0.00912&amp;z=16&amp;source=embed"
-			}
-	    },{
-	        "name": "Granollers",
-			"offices":[
-			    {
-			        "fields": [
-						{
-							"label": "Adreça:",
-							"value": "C/ Esteve Gilabert Bruniquer, 52. 08402 Granollers."
-						}, {
-							"label": "Dies d’atenci&oacute;:",
-							"value": "Dilluns, Dimecres i Divendres."
-						}, {
-							"label": "Tel&egrave;fon:",
-							"value": "93 394-9392"
-						}
-					]
-			    }
-			],
-			"map": {
-				"label": "La nostra consulta est&agrave; ubicada a:",
-				"labelExpand": "Veure mapa m&eacute;s gran",
-				"urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.605367,2.290435&amp;spn=0.005616,0.00912&amp;z=16&amp;output=embed",
-				"urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.605367,2.290435&amp;spn=0.005616,0.00912&amp;z=16&amp;source=embed"
-			}
-	    }
-	],
-	"socialNetworks": [
-		{
-			"label": "Segueix-nos Facebook!",
-			"url": "https://www.facebook.com/AdaptaPsicologia",
-			"imageUrl": "facebook.png"
-		},{
-                    "label": "Segueix-nos Twitter!",
-                    "url": "https://www.twitter.com/adaptapsico",
-                    "imageUrl": "twitter.png"
+    "title": "Contacte",
+    "subTitle": "Informaci&oacute; de contacte:",
+    "members": [
+        {
+            "label": "Guillermo de Ciria",
+            "fields": [
+                {
+                    "label": "Email:",
+                    "value": "psicologia@guillermodeciria.com"
+                },
+                {
+                    "label": "Tel&egrave;fon m&ograve;bil:",
+                    "value": "647 51 10 86"
+                }
+            ]
+        },
+        {
+            "label": "Pablo A. Barrionuevo Grabinski",
+            "fields": [
+                {
+                    "label": "Email:",
+                    "value": "adapta@adaptapsicologia.com"
+                },
+                {
+                    "label": "Tel&egrave;fon m&ograve;bil:",
+                    "value": "628 83 85 64"
+                }
+            ]
+        }
+    ],
+    "note": "Horari d’atenció a convenir.",
+    "cities": [
+        {
+            "name": "Barcelona",
+            "cityImageUrl": "barcelona-logo-250px.jpg",
+            "offices": [
+                {
+                    "fields": [
+                        {
+                            "label": "Adreça:",
+                            "value": "C/Gran de Gr&agrave;cia 71, 2º 1ª. 08012 Barcelona."
+                        },
+                        {
+                            "label": "Dies d’atenci&oacute;:",
+                            "value": "Dilluns, Dimecres i Divendres."
+                        }
+                    ],
+                    "location": {
+                        "label": "Com arribar?",
+                        "transitLines": [
+                            {
+                                "label": "L&iacute;nies de FGC:",
+                                "value": "Gràcia (<span class=\"transitLine-violet\">L6</span>, <span class=\"transitLine-brown\">L7</span>, <span class=\"transitLine-orange\">S1</span>, <span class=\"transitLine-lightGreen\">S2</span>, <span class=\"transitLine-blue\">S5, S55</span>)"
+                            },
+                            {
+                                "label": "Metro:",
+                                "value": "Fontana (<span class=\"transitLine-darkGreen\">L3</span>)"
+                            },
+                            {
+                                "label": "Bus:",
+                                "value": "22, 24, 28, 87, 114"
+                            }
+                        ]
+                    },
+                    "separator": "dummy"
+                },
+                {
+                    "fields": [
+                        {
+                            "label": "",
+                            "value": "Barri de Les Corts."
+                        },
+                        {
+                            "label": "Adreça:",
+                            "value": "Carrer Evarist Arnús 20-22 Baixos, 08014 Barcelona."
+                        },
+                        {
+                            "label": "Dies d’atenci&oacute;:",
+                            "value": "A convenir"
+                        }
+                    ],
+                    "location": {
+                        "label": "Com arribar?",
+                        "transitLines": [
+                            {
+                                "label": "Metro:",
+                                "value": "Les Corts o Plaça del Centre (<span class=\"transitLine-darkGreen\">L3</span>)"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "map": {
+                "label": "La nostra consulta est&agrave; ubicada a:",
+                "labelExpand": "Veure mapa m&eacute;s gran",
+                "urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.402566,2.166109&amp;spn=0.022533,0.036478&amp;z=14&amp;output=embed",
+                "urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.402566,2.166109&amp;spn=0.022533,0.036478&amp;z=14&amp;source=embed"
             }
-	]
+        },
+        {
+            "name": "Manresa",
+            "cityImageUrl": "manresa-logo-250px.jpg",
+            "offices": [
+                {
+                    "fields": [
+                        {
+                            "label": "Adreça:",
+                            "value": "C/moss&egrave;n Jacint Verdaguer 38, 1º 1ª. 08241 Manresa."
+                        },
+                        {
+                            "label": "Dies d’atenci&oacute;:",
+                            "value": "Dimecres i Divendres."
+                        },
+                        {
+                            "label": "Tel&egrave;fon:",
+                            "value": "93 873-1763"
+                        }
+                    ]
+                }
+            ],
+            "map": {
+                "label": "La nostra consulta est&agrave; ubicada a:",
+                "labelExpand": "Veure mapa m&eacute;s gran",
+                "urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.729834,1.832507&amp;spn=0.005605,0.00912&amp;z=16&amp;output=embed",
+                "urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.729834,1.832507&amp;spn=0.005605,0.00912&amp;z=16&amp;source=embed"
+            }
+        },
+        {
+            "name": "Granollers",
+            "offices": [
+                {
+                    "fields": [
+                        {
+                            "label": "Adreça:",
+                            "value": "C/ Esteve Gilabert Bruniquer, 52. 08402 Granollers."
+                        },
+                        {
+                            "label": "Dies d’atenci&oacute;:",
+                            "value": "Dilluns, Dimecres i Divendres."
+                        },
+                        {
+                            "label": "Tel&egrave;fon:",
+                            "value": "93 394-9392"
+                        }
+                    ]
+                }
+            ],
+            "map": {
+                "label": "La nostra consulta est&agrave; ubicada a:",
+                "labelExpand": "Veure mapa m&eacute;s gran",
+                "urlIframe": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.605367,2.290435&amp;spn=0.005616,0.00912&amp;z=16&amp;output=embed",
+                "urlLink": "https://maps.google.com/maps/ms?msa=0&amp;msid=214167169733200347789.0004ce66e3664cd45bb94&amp;ie=UTF8&amp;t=m&amp;ll=41.605367,2.290435&amp;spn=0.005616,0.00912&amp;z=16&amp;source=embed"
+            }
+        }
+    ],
+    "socialNetworks": [
+        {
+            "label": "Segueix-nos Facebook!",
+            "url": "https://www.facebook.com/AdaptaPsicologia",
+            "imageUrl": "facebook.png"
+        },
+        {
+            "label": "Segueix-nos Twitter!",
+            "url": "https://www.twitter.com/adaptapsico",
+            "imageUrl": "twitter.png"
+        }
+    ]
 }
-	
