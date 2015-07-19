@@ -1,3 +1,4 @@
-adaptaPsicologia
-================
-Es un sitio de presentación de un grupo de psicólogos.
+Adapta Psicologia
+=================
+
+It's a psychologists team web site.
