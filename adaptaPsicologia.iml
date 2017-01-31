@@ -29,7 +29,7 @@
     </facet>
     <facet type="google-app-engine" name="Google App Engine">
       <configuration>
-        <sdk-home-path>$MODULE_DIR$/../../xDKs/appengine-java-sdk-1.9.6</sdk-home-path>
+        <sdk-home-path>$MODULE_DIR$/../../xDKs/appengine-java-sdk-1.9.34</sdk-home-path>
       </configuration>
     </facet>
   </component>
